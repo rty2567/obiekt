@@ -444,19 +444,117 @@ public class program {
         uczen14[5] = "anita.duczek@email.pl";
 
         String[] uczen55 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen56 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen57 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen58 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen59 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen60 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen61 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen62 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen63 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen64 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen65 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen66 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen67 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen68 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen69 = new String[5];
         String[] uczen70 = new String[5];
         String[] uczen71 = new String[5];
