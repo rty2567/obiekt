@@ -11,6 +11,8 @@ public class program {
 		System.out.println(zmi[0]);
 		*/
 
+		//Grupa 1
+
         String[] uczen1 = new String[5];
         uczen1[0] = "Kamil Usicki";
         uczen1[1] = "4,5,3,4";
@@ -132,422 +134,696 @@ public class program {
         uczen14[5] = "karol.uchyka@email.pl";
 
         String[] uczen16 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Sylwia Kumna";
+        uczen14[1] = "3,3,4,4";
+        uczen14[2] = "Poznań ul.Jeżego 45";
+        uczen14[3] = "31.08.1997";
+        uczen14[4] = "777 296 619";
+        uczen14[5] = "sylwia.kumna@email.pl";
 
         String[] uczen17 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Patryk Tyczka";
+        uczen14[1] = "4,4,3,5";
+        uczen14[2] = "Poznań ul.Lejkowska 22";
+        uczen14[3] = "01.01.1999";
+        uczen14[4] = "760 098 023";
+        uczen14[5] = "patryk.tyczka@email.pl";
 
         String[] uczen18 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Patryk Ul";
+        uczen14[1] = "3,3,4,5";
+        uczen14[2] = "Poznań ul.Klinczowa 47";
+        uczen14[3] = "03.05.1999";
+        uczen14[4] = "592 209 978";
+        uczen14[5] = "patryk.ul@email.pl";
 
         String[] uczen19 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Przemek Wylik";
+        uczen14[1] = "2,2,3,2";
+        uczen14[2] = "Poznań ul.Warszawska 16";
+        uczen14[3] = "07.10.1998";
+        uczen14[4] = "709 990 290";
+        uczen14[5] = "przemek.wylik@email.pl";
 
         String[] uczen20 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Joanna Tomczewska";
+        uczen14[1] = "4,4,5,5";
+        uczen14[2] = "Poznań ul.Lwia 78";
+        uczen14[3] = "18.11.1999";
+        uczen14[4] = "820 029 186";
+        uczen14[5] = "joanna.tomczewska@email.pl";
+
+        //Grupa 2
 
         String[] uczen21 = new String[5];
-        uczen14[0] = "Anita Duczek";
+        uczen14[0] = "Iga Chorondewska";
         uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[2] = "Poznań ul.Lipy 23";
+        uczen14[3] = "03.09.1999";
+        uczen14[4] = "789 890 000";
+        uczen14[5] = "iga.chorondewska@email.pl";
 
         String[] uczen22 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Wojciech Felka";
+        uczen14[1] = "3,3,4,4";
+        uczen14[2] = "Poznań ul.Kalinowska 33";
+        uczen14[3] = "09.08.1998";
+        uczen14[4] = "166 766 824";
+        uczen14[5] = "wojciech.felka@email.pl";
 
         String[] uczen23 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Jakub Tyczka";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Klonowa 2 ";
+        uczen14[3] = "21.09.1997";
+        uczen14[4] = "786 666 155";
+        uczen14[5] = "jakub.tyczka@email.pl";
 
         String[] uczen24 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Oliwia Tonkowska";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Rybia 30";
+        uczen14[3] = "13.03.1999";
+        uczen14[4] = "344 111 555";
+        uczen14[5] = "oliwia.tonkowska@email.pl";
 
         String[] uczen25 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Agnieszka Duch";
+        uczen14[1] = "5,5,3,3";
+        uczen14[2] = "Poznań ul.Tychia 78";
+        uczen14[3] = "29.12.1995";
+        uczen14[4] = "234 788 122";
+        uczen14[5] = "agnieszka.duch@email.pl";
 
         String[] uczen26 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Damian Kilk";
+        uczen14[1] = "4,4,3,4";
+        uczen14[2] = "Poznań ul.Moszadła 40";
+        uczen14[3] = "17.05.1999";
+        uczen14[4] = "466 444 000";
+        uczen14[5] = "damian.kilk@email.pl";
 
         String[] uczen27 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Krystian Matyk";
+        uczen14[1] = "2,2,3,4";
+        uczen14[2] = "Poznań ul.Centralna 160";
+        uczen14[3] = "12.04.1999";
+        uczen14[4] = "567 129 333";
+        uczen14[5] = "krystian.matyk@email.pl";
 
         String[] uczen28 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Jakub Chych";
+        uczen14[1] = "5,5,4,3";
+        uczen14[2] = "Kraków ul.Główna 89";
+        uczen14[3] = "07.06.1999";
+        uczen14[4] = "899 093 739";
+        uczen14[5] = "jakub.chych@email.pl";
 
         String[] uczen29 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Magdalena Cirkowska";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Styczna 10";
+        uczen14[3] = "19.09.1999";
+        uczen14[4] = "789 655 000";
+        uczen14[5] = "magdalena.cirkowska@email.pl";
 
         String[] uczen30 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Adrian Lis";
+        uczen14[1] = "4,4,5,4";
+        uczen14[2] = "Poznań ul.Kaczora 21";
+        uczen14[3] = "10.02.1999";
+        uczen14[4] = "127 788 020";
+        uczen14[5] = "adrian.lis@email.pl";
 
         String[] uczen31 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Mirek Olik";
+        uczen14[1] = "5,3,5,4";
+        uczen14[2] = "Poznań ul.Mapia 40";
+        uczen14[3] = "19.05.1999";
+        uczen14[4] = "477 980 127";
+        uczen14[5] = "mirek.olik@email.pl";
 
         String[] uczen32 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Emil Krawtan";
+        uczen14[1] = "5,5,5,3";
+        uczen14[2] = "Poznań ul.Uchyłka 50";
+        uczen14[3] = "21.06.1996";
+        uczen14[4] = "678 456 902";
+        uczen14[5] = "emil.krawtan@email.pl";
 
         String[] uczen33 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Krystyna Wierzba";
+        uczen14[1] = "4,4,5,3";
+        uczen14[2] = "Poznań ul.Krawiecka 29";
+        uczen14[3] = "09.02.1999";
+        uczen14[4] = "234 678 222";
+        uczen14[5] = "krystyna.wierzba@email.pl";
 
         String[] uczen34 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Sebastian Milk";
+        uczen14[1] = "4,3,3,3";
+        uczen14[2] = "Poznań ul.Tykińksa 90";
+        uczen14[3] = "16.05.1998";
+        uczen14[4] = "478 098 999";
+        uczen14[5] = "sebastian.milk@email.pl";
 
         String[] uczen35 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Maja Ikowska";
+        uczen14[1] = "2,3,3,3";
+        uczen14[2] = "Poznań ul.Liczbowska 67";
+        uczen14[3] = "18.08.1998";
+        uczen14[4] = "677 654 298";
+        uczen14[5] = "maja.ikowska@email.pl";
 
         String[] uczen36 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Grzegorz Rilski";
+        uczen14[1] = "3,4,4,4";
+        uczen14[2] = "Poznań ul.Urwińska 32";
+        uczen14[3] = "07.01.1999";
+        uczen14[4] = "098 872 322";
+        uczen14[5] = "grzegorz.rilski@email.pl";
 
         String[] uczen37 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Alicja Surna";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Maliowa 40";
+        uczen14[3] = "19.09.1999";
+        uczen14[4] = "876 000 002";
+        uczen14[5] = "alicja.surna@email.pl";
 
         String[] uczen38 = new String[5];
-        uczen14[0] = "Anita Duczek";
+        uczen14[0] = "Krystian Duk";
         uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[2] = "Wrocław ul.Marszałkowska 8";
+        uczen14[3] = "08.02.1999";
+        uczen14[4] = "289 672 092";
+        uczen14[5] = "krystian.duk@email.pl";
 
         String[] uczen39 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Aleksander Kotowski";
+        uczen14[1] = "2,2,3,3";
+        uczen14[2] = "Poznań ul.Wilcza 90";
+        uczen14[3] = "23.01.1999";
+        uczen14[4] = "578 289 678";
+        uczen14[5] = "aleksander.kotowski@email.pl";
 
         String[] uczen40 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Czarek Wojtkowski";
+        uczen14[1] = "5,5,5,2";
+        uczen14[2] = "Poznań ul.Ryszardzcka 30";
+        uczen14[3] = "17.05.1999";
+        uczen14[4] = "289 078 777";
+        uczen14[5] = "czarek.wojtkowski@email.pl";
+
+        //Grupa 3
 
         String[] uczen41 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Aleksander Minuseor";
+        uczen14[1] = "4,4,5,5";
+        uczen14[2] = "Poznań ul.Gawina 52";
+        uczen14[3] = "04.07.1999";
+        uczen14[4] = "899 098 277";
+        uczen14[5] = "aleksander.minuseor@email.pl";
 
         String[] uczen42 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Wojciech Kruk";
+        uczen14[1] = "4,3,3,2";
+        uczen14[2] = "Poznań ul.Lipowa 29";
+        uczen14[3] = "08.08.1999";
+        uczen14[4] = "627 999 999 ";
+        uczen14[5] = "wojciech.kruk@email.pl";
 
         String[] uczen43 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Maja Lisowska";
+        uczen14[1] = "4,4,4,4";
+        uczen14[2] = "Poznań ul.Kliska 60";
+        uczen14[3] = "23.07.1999";
+        uczen14[4] = "389 000 000";
+        uczen14[5] = "maja.lisowska@email.pl";
 
         String[] uczen44 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Emilia Grut";
+        uczen14[1] = "5,5,2,2";
+        uczen14[2] = "Poznań ul.Tychalska 80";
+        uczen14[3] = "14.02.1998";
+        uczen14[4] = "267 876 000";
+        uczen14[5] = "emilia.grut@email.pl";
 
         String[] uczen45 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Paulina Pochecka";
+        uczen14[1] = "4,4,5,3";
+        uczen14[2] = "Poznań ul.Czyżkowska 34";
+        uczen14[3] = "19.09.1998";
+        uczen14[4] = "720 290 289 ";
+        uczen14[5] = "paulina.pochecka@email.pl";
 
         String[] uczen46 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Henryk Balszczyk";
+        uczen14[1] = "5,5,3,4";
+        uczen14[2] = "Poznań ul.Buddowska 98";
+        uczen14[3] = "20.01.1999";
+        uczen14[4] = "178 567 098";
+        uczen14[5] = "henryk.balszczyk@email.pl";
 
         String[] uczen47 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Ryszard Wawel";
+        uczen14[1] = "4,5,5,5";
+        uczen14[2] = "Poznań ul.Maczka 3";
+        uczen14[3] = "30.04.1999";
+        uczen14[4] = "892 299 290";
+        uczen14[5] = "ryszard.wawel@email.pl";
 
         String[] uczen48 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Alan Witolski";
+        uczen14[1] = "4,4,4,5";
+        uczen14[2] = "Poznań ul.Wyczka 49";
+        uczen14[3] = "10.07.1999";
+        uczen14[4] = "678 099 280";
+        uczen14[5] = "alan.witolski@email.pl";
 
         String[] uczen49 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Karol Grzerka";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Maodlińska 11";
+        uczen14[3] = "19.09.1999";
+        uczen14[4] = "785 098 555";
+        uczen14[5] = "karol.grzerka@email.pl";
 
         String[] uczen50 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Wiktoria Parys";
+        uczen14[1] = "5,5,2,3";
+        uczen14[2] = "Poznań ul.Ulikowska 45";
+        uczen14[3] = "20.10.1998";
+        uczen14[4] = "678 666 666";
+        uczen14[5] = "wiktoria.parys@email.pl";
 
         String[] uczen51 = new String[5];
-        uczen14[0] = "Anita Duczek";
+        uczen14[0] = "Daria Juchin";
         uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[2] = "Poznań ul.Komińska 32";
+        uczen14[3] = "09.07.1999";
+        uczen14[4] = "768 555 246";
+        uczen14[5] = "daria.juchin@email.pl";
 
         String[] uczen52 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Weronika Kumina";
+        uczen14[1] = "5,5,3,2";
+        uczen14[2] = "Poznań ul.Hykowksa 50";
+        uczen14[3] = "19.04.1999";
+        uczen14[4] = "290 982 378";
+        uczen14[5] = "weronika.kumina@email.pl";
 
         String[] uczen53 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Emil Modlik";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Rodkowska 30";
+        uczen14[3] = "12.04.1999";
+        uczen14[4] = "456 890 244";
+        uczen14[5] = "emil.modlik@email.pl";
 
         String[] uczen54 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Borys Iwkan";
+        uczen14[1] = "3,2,2,2";
+        uczen14[2] = "Poznań ul.Matów 78";
+        uczen14[3] = "09.10.1997";
+        uczen14[4] = "678 378 009";
+        uczen14[5] = "borys.iwkan@emial.pl";
 
         String[] uczen55 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Tymon Ocelot";
+        uczen14[1] = "4,4,3,4";
+        uczen14[2] = "Rzeszów ul.Łabędzia 96";
+        uczen14[3] = "13.06.1998";
+        uczen14[4] = "744 909 908";
+        uczen14[5] = "tymon.ocelot@email.pl";
 
         String[] uczen56 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Julia Tyczka";
+        uczen14[1] = "5,5,3,3";
+        uczen14[2] = "Poznań ul.Kilczka 5";
+        uczen14[3] = "20.07.1999";
+        uczen14[4] = "678 398 909";
+        uczen14[5] = "julia.tyczka@email.pl";
 
         String[] uczen57 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Dawid Golan";
+        uczen14[1] = "5,5,3,4";
+        uczen14[2] = "Poznań ul.Maczka 57";
+        uczen14[3] = "30.09.1999";
+        uczen14[4] = "456 678 029";
+        uczen14[5] = "dawid.golan@email.pl";
 
         String[] uczen58 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Henryk Stos";
+        uczen14[1] = "4,4,3,3";
+        uczen14[2] = "Poznań ul.Lwia 70";
+        uczen14[3] = "20.12.1998";
+        uczen14[4] = "722 677 211";
+        uczen14[5] = "henryk.stos@email.pl";
 
         String[] uczen59 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Grzegorz Kot";
+        uczen14[1] = "5,4,4,3";
+        uczen14[2] = "Poznań ul.Ptasia 49";
+        uczen14[3] = "30.03.1996";
+        uczen14[4] = "678 290 999";
+        uczen14[5] = "grzegorz.kot@email.pl";
 
         String[] uczen60 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Przemek Artyk";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Liwska 89";
+        uczen14[3] = "17.05.1999";
+        uczen14[4] = "472 878 000";
+        uczen14[5] = "przemek.artyk@email.pl";
+
+        //Grupa 4
 
         String[] uczen61 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Bartosz Ruk";
+        uczen14[1] = "3,2,2,2";
+        uczen14[2] = "Poznań ul.Gdyńska 99";
+        uczen14[3] = "12.09.1999";
+        uczen14[4] = "098 780 023";
+        uczen14[5] = "bartosz.ruk@email.pl";
 
         String[] uczen62 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Alicja Mogda";
+        uczen14[1] = "4,4,3,5";
+        uczen14[2] = "Poznań ul.Hyńska 78";
+        uczen14[3] = "19.06.1999";
+        uczen14[4] = "909 909 372";
+        uczen14[5] = "alicja.mogda@email.pl";
 
         String[] uczen63 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Krystian Mawin";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Ulinowksa 67";
+        uczen14[3] = "15.07.1999";
+        uczen14[4] = "178 675 897";
+        uczen14[5] = "krystian.mawin@email.pl";
 
         String[] uczen64 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Iga Dwiska";
+        uczen14[1] = "4,4,3,4";
+        uczen14[2] = "Poznań ul.Liczkowska 78";
+        uczen14[3] = "18.09.1995";
+        uczen14[4] = "780 657 712";
+        uczen14[5] = "iga.dwiska@email.pl";
 
         String[] uczen65 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Jakub Ilkowski";
+        uczen14[1] = "5,3,3,3";
+        uczen14[2] = "Poznań ul.Orińksa 90";
+        uczen14[3] = "04.02.1999";
+        uczen14[4] = "682 981 111";
+        uczen14[5] = "jakub.ilkowski@email.pl";
 
         String[] uczen66 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Damian Ulik";
+        uczen14[1] = "2,2,4,3";
+        uczen14[2] = "Poznań ul.Agdowska 83";
+        uczen14[3] = "17.05.1999";
+        uczen14[4] = "629 981 190";
+        uczen14[5] = "damian.ulik@email.pl";
 
         String[] uczen67 = new String[5];
-        uczen14[0] = "Anita Duczek";
-        uczen14[1] = "3,4,5,5";
-        uczen14[2] = "Poznań ul.Uliego 46";
-        uczen14[3] = "27.10.1999";
-        uczen14[4] = "122 657 779";
-        uczen14[5] = "anita.duczek@email.pl";
+        uczen14[0] = "Bartosz Wilk";
+        uczen14[1] = "2,3,3,3";
+        uczen14[2] = "Poznań ul.Palińska 97";
+        uczen14[3] = "18.12.1999";
+        uczen14[4] = "711 711 901";
+        uczen14[5] = "bartosz.wilk@email.pl";
 
         String[] uczen68 = new String[5];
+        uczen14[0] = "Bogdan Markowski";
+        uczen14[1] = "5,4,3,3";
+        uczen14[2] = "Poznań ul.Tychowska 22";
+        uczen14[3] = "14.12.1997";
+        uczen14[4] = "890 897 126";
+        uczen14[5] = "bogdan.markowski@email.pl";
+
+        String[] uczen69 = new String[5];
+        uczen14[0] = "Maja Kalik ";
+        uczen14[1] = "4,4,4,4";
+        uczen14[2] = "Poznań ul.Ucińksa 89";
+        uczen14[3] = "17.02.1999";
+        uczen14[4] = "456 782 909";
+        uczen14[5] = "maja.kalik@email.pl";
+
+        String[] uczen70 = new String[5];
+        uczen14[0] = "Filip Krzyk";
+        uczen14[1] = "3,2,3,4";
+        uczen14[2] = "Poznań ul.Gruńska 60 ";
+        uczen14[3] = "03.08.1999";
+        uczen14[4] = "629 098 988";
+        uczen14[5] = "filip.krzyk@email.pl";
+
+        String[] uczen71 = new String[5];
+        uczen14[0] = "Kacper Erych ";
+        uczen14[1] = "5,5,4,3";
+        uczen14[2] = "Poznań ul.Zielowska 91";
+        uczen14[3] = "30.04.1999";
+        uczen14[4] = "562 222 654";
+        uczen14[5] = "kacper.erych@email.pl";
+
+        String[] uczen72 = new String[5];
+        uczen14[0] = "Julia Wyk ";
+        uczen14[1] = "5,4,3,3";
+        uczen14[2] = "Poznań ul.Nunska 40";
+        uczen14[3] = "13.09.1999";
+        uczen14[4] = "278 267 587";
+        uczen14[5] = "julia.wyk@email.pl";
+
+        String[] uczen73 = new String[5];
+        uczen14[0] = "Ewelina Folkr";
+        uczen14[1] = "5,3,4,5";
+        uczen14[2] = "Poznań ul.Bartońskiego 58";
+        uczen14[3] = "07.08.1999";
+        uczen14[4] = "564 345 678";
+        uczen14[5] = "ewelina.folkr@email.pl";
+
+        String[] uczen74 = new String[5];
+        uczen14[0] = "Wiktoria Jyk ";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Hycewicza 46";
+        uczen14[3] = "09.09.1999";
+        uczen14[4] = "382 727 257";
+        uczen14[5] = "wiktoria.jyk@email.pl";
+
+        String[] uczen75 = new String[5];
+        uczen14[0] = "Dawid Oski";
+        uczen14[1] = "4,4,3,3";
+        uczen14[2] = "Poznań ul.Wiczyńskiego 67";
+        uczen14[3] = "12.07.1999";
+        uczen14[4] = "728 827 289";
+        uczen14[5] = "dawid.oski@email.pl";
+
+        String[] uczen76 = new String[5];
+        uczen14[0] = "Weronika Ulska";
+        uczen14[1] = "4,3,3,3";
+        uczen14[2] = "Poznań ul.Elongiewicza 29";
+        uczen14[3] = "19.02.1998";
+        uczen14[4] = "278 567 245";
+        uczen14[5] = "weronika.ulska@email.pl";
+
+        String[] uczen77 = new String[5];
+        uczen14[0] = "Bartosz Guzin";
+        uczen14[1] = "3,3,3,3";
+        uczen14[2] = "Poznań ul.Fryderyka 19";
+        uczen14[3] = "29.01.1999";
+        uczen14[4] = "367 728 099";
+        uczen14[5] = "bartosz.guzin@email.pl";
+
+        String[] uczen78 = new String[5];
+        uczen14[0] = "Iga Byk";
+        uczen14[1] = "2,2,3,4";
+        uczen14[2] = "Poznań ul.Duńska 90";
+        uczen14[3] = "17.04.1999";
+        uczen14[4] = "282 267 209";
+        uczen14[5] = "iga.byk@email.pl";
+
+        String[] uczen79 = new String[5];
+        uczen14[0] = "Marcin Ducin";
+        uczen14[1] = "3,3,3,3";
+        uczen14[2] = "Poznań ul.Saczyńska 23";
+        uczen14[3] = "30.03.1999";
+        uczen14[4] = "278 567 267";
+        uczen14[5] = "marcin.ducin@email.pl";
+
+        String[] uczen80 = new String[5];
+        uczen14[0] = "Gracjan Halikowski";
+        uczen14[1] = "4,5,5,5";
+        uczen14[2] = "Poznań ul.Folkrorowa 12";
+        uczen14[3] = "12.06.1998";
+        uczen14[4] = "562 762 829";
+        uczen14[5] = "gracjan.halikowski@email.pl";
+
+        //grupa 5
+
+        String[] uczen81 = new String[5];
+        uczen14[0] = "Adam Gochman";
+        uczen14[1] = "3,3,5,4";
+        uczen14[2] = "Poznań ul.Ludowa 30";
+        uczen14[3] = "23.05.1998";
+        uczen14[4] = "348 289 278";
+        uczen14[5] = "adam.gochman@email.pl";
+
+        String[] uczen82 = new String[5];
+        uczen14[0] = "Alicja Kaliska";
+        uczen14[1] = "3,4,4,4";
+        uczen14[2] = "Poznań ul.Henrego 78";
+        uczen14[3] = "17.09.1998";
+        uczen14[4] = "178 176 268";
+        uczen14[5] = "alicja.kaliska@email.pl";
+
+        String[] uczen83 = new String[5];
+        uczen14[0] = "Jakub Mawilski";
+        uczen14[1] = "5,4,4,3";
+        uczen14[2] = "Poznań ul.Tężyńska 62";
+        uczen14[3] = "02.05.1998";
+        uczen14[4] = "378 290 281";
+        uczen14[5] = "jakub.mawilski@email.pl";
+
+        String[] uczen84 = new String[5];
+        uczen14[0] = "Igor Rogowski";
+        uczen14[1] = "3,3,4,4";
+        uczen14[2] = "Poznań ul.Łękowska 20";
+        uczen14[3] = "08.06.1998";
+        uczen14[4] = "178 295 158";
+        uczen14[5] = "igor.rogowski@email.pl";
+
+        String[] uczen85 = new String[5];
+        uczen14[0] = "Paulina Pietrzak";
+        uczen14[1] = "5,4,5,5";
+        uczen14[2] = "Poznań ul.Konwaliowa 29";
+        uczen14[3] = "01.01.1997";
+        uczen14[4] = "387 282 272";
+        uczen14[5] = "paulina.pietrzak@email.pl";
+
+        String[] uczen86 = new String[5];
+        uczen14[0] = "Klaudia Chorakowska";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Rycińskiego 60";
+        uczen14[3] = "09.12.1998";
+        uczen14[4] = "476 278 879";
+        uczen14[5] = "klaudia.chorakowska@email.pl";
+
+        String[] uczen87 = new String[5];
+        uczen14[0] = "Karina Fyka";
+        uczen14[1] = "4,3,5,5";
+        uczen14[2] = "Poznań ul.Saczyńska 72";
+        uczen14[3] = "23.01.1998";
+        uczen14[4] = "627 625 099";
+        uczen14[5] = "karina.fyka@email.pl";
+
+        String[] uczen88 = new String[5];
+        uczen14[0] = "Aleksander Hylk";
+        uczen14[1] = "4,3,3,3";
+        uczen14[2] = "Poznań ul.Hycla 29";
+        uczen14[3] = "17.06.1998";
+        uczen14[4] = "345 499 376";
+        uczen14[5] = "aleksander.hylk@email.pl";
+
+        String[] uczen89 = new String[5];
+        uczen14[0] = "Damian Polkaw";
+        uczen14[1] = "4,3,3,5";
+        uczen14[2] = "Poznań ul.Kaktusowa 46";
+        uczen14[3] = "30.09.19998";
+        uczen14[4] = "388 292 378";
+        uczen14[5] = "damian.polkaw@email.pl";
+
+        String[] uczen90 = new String[5];
+        uczen14[0] = " Paulina Miwka";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Duskowska 30";
+        uczen14[3] = "12.04.1998";
+        uczen14[4] = "578 628 299";
+        uczen14[5] = "paulina.miwka@email.pl";
+
+        String[] uczen91 = new String[5];
+        uczen14[0] = "Przemek Kalski";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Gołębiowa 48";
+        uczen14[3] = "30.02.1998";
+        uczen14[4] = "368 671 107";
+        uczen14[5] = "przemek.kalski@email.pl";
+
+        String[] uczen92 = new String[5];
+        uczen14[0] = "Wojciech Szlyk";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Karska 89";
+        uczen14[3] = "12.07.1998";
+        uczen14[4] = "198 176 167";
+        uczen14[5] = "wojciech.szlyk@email.pl";
+
+        String[] uczen93 = new String[5];
+        uczen14[0] = "Maciej Juwon";
+        uczen14[1] = "4,3,3,3";
+        uczen14[2] = "Poznań ul.Byka 7";
+        uczen14[3] = "18.02.1998";
+        uczen14[4] = "782 279 467";
+        uczen14[5] = "maciej.juwon@email.pl";
+
+        String[] uczen94 = new String[5];
+        uczen14[0] = "Emil Hyksa";
+        uczen14[1] = "3,3,3,3";
+        uczen14[2] = "Poznań ul.Tulipanowa 21";
+        uczen14[3] = "29.05.1997";
+        uczen14[4] = "178 278 377";
+        uczen14[5] = "emil.hyksa@email.pl";
+
+        String[] uczen95 = new String[5];
+        uczen14[0] = "Magdalena Wazowska";
+        uczen14[1] = "5,5,5,5";
+        uczen14[2] = "Poznań ul.Cicha 84";
+        uczen14[3] = "07.06.1998";
+        uczen14[4] = "456 378 189";
+        uczen14[5] = "magdalena.wazowska@email.pl";
+
+        String[] uczen96 = new String[5];
+        uczen14[0] = "Damian Skolski";
+        uczen14[1] = "4,4,3,5";
+        uczen14[2] = "Poznań ul.Eliowa 37 ";
+        uczen14[3] = "20.04.1998";
+        uczen14[4] = "489 262 478";
+        uczen14[5] = "damian.skolski@email.pl";
+
+        String[] uczen97 = new String[5];
+        uczen14[0] = "Fryderyk Rolski";
+        uczen14[1] = "5,5,3,3";
+        uczen14[2] = "Poznań ul.Majowa 49";
+        uczen14[3] = "29.09.1998";
+        uczen14[4] = "672 536 278";
+        uczen14[5] = "fryderyk.rolski@email.pl";
+
+        String[] uczen98 = new String[5];
+        uczen14[0] = "Halina Wojtkowska";
+        uczen14[1] = "5,5,3,3";
+        uczen14[2] = "Olsztyn ul.Hymańska 90";
+        uczen14[3] = "13.10.1998";
+        uczen14[4] = "378 478 650";
+        uczen14[5] = "halina.wojtkowska@email.pl";
+
+        String[] uczen99 = new String[5];
+        uczen14[0] = "Karina Mojtka";
+        uczen14[1] = "3,4,4,4";
+        uczen14[2] = "Poznań ul.Rulska 45";
+        uczen14[3] = "20.05.1998";
+        uczen14[4] = "587 578 230";
+        uczen14[5] = "karina.mojtka@email.pl";
+
+        String[] uczen100 = new String[5];
+        uczen14[0] = "Kacper Wit ";
+        uczen14[1] = "4,4,4,4";
+        uczen14[2] = "Poznań ul.Dawidowa 29";
+        uczen14[3] = "16.08.1998";
+        uczen14[4] = "378 576 247";
+        uczen14[5] = "kacper.wit@email.pl";
+
+        //grupa 6
+
+        String[] uczen102 = new String[5];
         uczen14[0] = "Anita Duczek";
         uczen14[1] = "3,4,5,5";
         uczen14[2] = "Poznań ul.Uliego 46";
@@ -555,41 +831,14 @@ public class program {
         uczen14[4] = "122 657 779";
         uczen14[5] = "anita.duczek@email.pl";
 
-        String[] uczen69 = new String[5];
-        String[] uczen70 = new String[5];
-        String[] uczen71 = new String[5];
-        String[] uczen72 = new String[5];
-        String[] uczen73 = new String[5];
-        String[] uczen74 = new String[5];
-        String[] uczen75 = new String[5];
-        String[] uczen76 = new String[5];
-        String[] uczen77 = new String[5];
-        String[] uczen78 = new String[5];
-        String[] uczen79 = new String[5];
-        String[] uczen80 = new String[5];
-        String[] uczen81 = new String[5];
-        String[] uczen82 = new String[5];
-        String[] uczen83 = new String[5];
-        String[] uczen84 = new String[5];
-        String[] uczen85 = new String[5];
-        String[] uczen86 = new String[5];
-        String[] uczen87 = new String[5];
-        String[] uczen88 = new String[5];
-        String[] uczen89 = new String[5];
-        String[] uczen90 = new String[5];
-        String[] uczen91 = new String[5];
-        String[] uczen92 = new String[5];
-        String[] uczen93 = new String[5];
-        String[] uczen94 = new String[5];
-        String[] uczen95 = new String[5];
-        String[] uczen96 = new String[5];
-        String[] uczen97 = new String[5];
-        String[] uczen98 = new String[5];
-        String[] uczen99 = new String[5];
-        String[] uczen100 = new String[5];
-        String[] uczen101 = new String[5];
-        String[] uczen102 = new String[5];
         String[] uczen103 = new String[5];
+        uczen14[0] = "Anita Duczek";
+        uczen14[1] = "3,4,5,5";
+        uczen14[2] = "Poznań ul.Uliego 46";
+        uczen14[3] = "27.10.1999";
+        uczen14[4] = "122 657 779";
+        uczen14[5] = "anita.duczek@email.pl";
+
         String[] uczen104 = new String[5];
         String[] uczen105 = new String[5];
         String[] uczen106 = new String[5];
@@ -889,7 +1138,7 @@ Informatyka    1             Kamil Usicki           4,5,3,4       Poznań ul.Maz
 							 Wojciech Kruk          4,3,3,2       Poznań ul.Lipowa 29               08.08.1999           627 999 999    wojciech.kruk@email.pl
 							 Maja Lisowska          4,4,4,4       Poznań ul.Kliska 60               23.07.1999           389 000 000    maja.lisowska@email.pl
 							 Emilia Grut            5,5,2,2       Poznań ul.Tychalska 80            14.02.1998           267 876 000    emilia.grut@email.pl
-							 Paulina Pochecka       4,4,5,3       Poznań ul.Czyżkowska              19.09.1998           720 290 289    paulina.pochecka@email.pl
+							 Paulina Pochecka       4,4,5,3       Poznań ul.Czyżkowska 34            19.09.1998           720 290 289    paulina.pochecka@email.pl
 							 Henryk Balszczyk       5,5,3,4       Poznań ul.Buddowska 98            20.01.1999           178 567 098    henryk.balszczyk@email.pl
 							 Ryszard Wawel          4,5,5,5       Poznań ul.Maczka 3                30.04.1999           892 299 290    ryszard.wawel@email.pl
 							 Alan Witolski          4,4,4,5       Poznań ul.Wyczka 49               10.07.1999           678 099 280    alan.witolski@email.pl
@@ -947,7 +1196,7 @@ Informatyka    1             Kamil Usicki           4,5,3,4       Poznań ul.Maz
 							 Damian Skolski         4,4,3,5       Poznań ul.Eliowa 37               20.04.1998           489 262 478    damian.skolski@email.pl
 							 Fryderyk Rolski        5,5,3,3       Poznań ul.Majowa 49               29.09.1998           672 536 278    fryderyk.rolski@email.pl
 							 Halina Wojtkowska      5,5,3,3       Olsztyn ul.Hymańska 90            13.10.1998           378 478 650    halina.wojtkowska@email.pl
-							 Karina Mojtka          3,4,4,4       Poznań ul.Rulska 45               20.05.1998           587 578 230    karina.mojtka#email.pl
+							 Karina Mojtka          3,4,4,4       Poznań ul.Rulska 45               20.05.1998           587 578 230    karina.mojtka@email.pl
 							 Kacper Wit             4,4,4,4       Poznań ul.Dawidowa 29             16.08.1998           378 576 247    kacper.wit@email.pl
 
 							 Wiktoria Geska         3,4,4,4       Poznań ul.Fylka 69                12.07.1998           578 577 488    wiktoria.geska@email.pl
