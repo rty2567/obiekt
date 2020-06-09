@@ -2577,7 +2577,7 @@ public class program {
 
 // Baza danych uczniów
 /*
-Rok 1       Kierunek         Uczniowie              Oceny         Adres zamiekszania                Data urodzenia       Telefon        E-mail    (Sortowanie i oceny na stypendium)
+Rok 1       Kierunek         Uczniowie              Oceny         Adresy zamiekszania               Data urodzenia       Telefon        E-mail    (Sortowanie i oceny na stypendium)
             Informatyka      Kamil Usicki           4,5,3,4       Poznań ul.Mazurska 34             23.08.1999           897 897 678    kamil.usicki@email.pl
                              Magdalena Konwalia     3,5,5,5       Poznań ul.Krakowska 67            09.09.1999           789 234 876    magdalena.konwalia@email.pl
                              Jakub Wilk             2,3,5,3       Poznań ul.Maczka 20               08.07.1999           123 455 678    jakub.wilk@email.pl
