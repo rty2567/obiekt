@@ -13,13 +13,20 @@ public class program {
 
         //Grupa 1
 
-        String[] uczen1 = new String[5];
+        String[] uczen1 = new String[6];
         uczen1[0] = "Kamil Usicki";
         uczen1[1] = "4,5,3,4";
         uczen1[2] = "Poznań ul.Mazurska 34 ";
         uczen1[3] = "23.08.1999";
         uczen1[4] = "897 897 678";
         uczen1[5] = "kamil.usicki@email.pl";
+        System.out.println(uczen1[0]);
+        System.out.println(uczen1[1]);
+        System.out.println(uczen1[2]);
+        System.out.println(uczen1[3]);
+        System.out.println(uczen1[4]);
+        System.out.println(uczen1[5]);
+
 
         String[] uczen2 = new String[5];
         uczen2[0] = "Magdalena Konwalia";
