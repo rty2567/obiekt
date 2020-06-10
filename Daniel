@@ -1,0 +1,41 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+class Solution{
+    public static void main(String[] args){
+        String[] uczen0 = new String[2];
+        String[] uczen1 = new String[2];
+        String[] uczen2 = new String[2];
+        String[] uczen3 = new String[2];
+        String[] uczen4 = new String[2];
+        String[] uczen5 = new String[2];
+
+        uczen0[1] = "Kamil Usicki";
+        uczen1[0] = "4,5,3,4";
+        uczen2[0] = "Poznań ul.Mazurska 34 ";
+        uczen3[0] = "23.08.1999";
+        uczen4[0] = "897 897 678";
+        uczen5[1] = "kamil.usicki@email.pl";
+
+
+
+
+        uczen0[0] = "Magdalena Konwalia";
+        uczen1[1] = "3,5,5,5";
+        uczen2[1] = "Poznań ul.Krakowska 67";
+        uczen3[1] = "09.09.1999";
+        uczen4[1] = "789 234 876";
+        uczen5[0] = "magdalena.konwalia@email.pl";
+
+
+        Arrays.sort(uczen0);
+
+        for (int i = 0 ; i < 2 ; i ++){
+            System.out.println(uczen0[i]);
+        }
+        Arrays.sort(uczen5);
+        for (int i = 0 ; i < 2 ; i ++){
+            System.out.println(uczen5[i]);
+        }
+    }
+}
