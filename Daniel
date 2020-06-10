@@ -12,11 +12,13 @@ class Solution{
 
                 System.out.println(imie.get(i));
         }
+        System.out.println(" ");
         return imie;
     }
 
     public static void  Wyswietlanie_elementu (ArrayList imie,int numer){
         System.out.println(imie.get(numer));
+        System.out.println(" ");
 
     }
 
@@ -28,6 +30,7 @@ class Solution{
         System.out.println(data.get(numer));
         System.out.println(nr_tel.get(numer));
         System.out.println(e_mail.get(numer));
+        System.out.println(" ");
 
     }
 
