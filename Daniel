@@ -4,14 +4,43 @@ import java.util.Arrays;
 import java.util.Collections;
 
 class Solution{
+
+    public static ArrayList Sortowanie (ArrayList imie ){
+        Collections.sort(imie);
+
+        for (int i = 0; i < imie.size(); i++){
+
+                System.out.println(imie.get(i));
+        }
+        return imie;
+    }
+
+    public static void  Wyswietlanie_elementu (ArrayList imie,int numer){
+        System.out.println(imie.get(numer));
+
+    }
+
+    public static void  Wyswietlanie_wszystkiego (ArrayList imie,ArrayList oceny,ArrayList adres,ArrayList data,ArrayList nr_tel,ArrayList e_mail ,int numer){
+
+        System.out.println(imie.get(numer));
+        System.out.println(oceny.get(numer));
+        System.out.println(adres.get(numer));
+        System.out.println(data.get(numer));
+        System.out.println(nr_tel.get(numer));
+        System.out.println(e_mail.get(numer));
+
+    }
+
     public static void main(String[] args){
+
+
+
         ArrayList<String> imie = new ArrayList<>();
         ArrayList<String> oceny = new ArrayList<>();
         ArrayList<String> adres = new ArrayList<>();
         ArrayList<String> data = new ArrayList<>();
         ArrayList<String> nr_tel = new ArrayList<>();
         ArrayList<String> e_mail = new ArrayList<>();
-
 
 
         imie.add("Kamil Usicki");
@@ -35,26 +64,23 @@ class Solution{
         data.add("08.07.1999");
         nr_tel.add("123 455 678");
         e_mail.add("jakub.wilk@email.pl");
-        
+
         imie.add("Julita Monkowska");
         oceny.add("3,3,4,4");
         adres.add("Poznań ul.Kaczora 56");
         data.add("12.03.1999");
         nr_tel.add("234 678 990");
         e_mail.add("julita.monkowska@email.pl");
-        
+
         imie.add("Damian Monor");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Maczka 90");
         data.add("529.08.1999");
         nr_tel.add("567 880 880");
         e_mail.add("damian.monor@email.pl");
-        
-        Collections.sort(imie);
 
-        for (int i = 0; i < imie.size(); i++){
-            System.out.println(imie.get(i));
-        }
+        Wyswietlanie_wszystkiego(imie,oceny,adres,data,nr_tel,e_mail,0);
+
 
     }
 }
