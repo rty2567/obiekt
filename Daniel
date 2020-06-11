@@ -1,22 +1,41 @@
+
+
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
 class Solution{
 
-    public static ArrayList Sortowanie (ArrayList imie ){
-        Collections.sort(imie);
-
-        for (int i = 0; i < imie.size(); i++){
-
-                System.out.println(imie.get(i));
+    public static void Wysw_pierwsze_el (ArrayList lista,int liczba){
+        Collections.sort(lista);
+        for(int i = 0; i < liczba ; i++){
+            System.out.println(lista.get(i));
         }
         System.out.println(" ");
-        return imie;
     }
 
-    public static void  Wyswietlanie_elementu (ArrayList imie,int numer){
-        System.out.println(imie.get(numer));
+    public static void Wysw_ostatnie_el (ArrayList lista,int liczba){
+        Collections.sort(lista);
+        for(int i = lista.size() - 1; i > liczba; i--)
+        {
+            System.out.println(lista.get(i));
+        }
+        System.out.println(" ");
+    }
+
+    public static ArrayList Sortowanie (ArrayList lista ){
+        Collections.sort(lista);
+
+        for (int i = 0; i < lista.size(); i++){
+
+            System.out.println(lista.get(i));
+        }
+        System.out.println(" ");
+        return lista;
+    }
+
+    public static void  Wyswietlanie_elementu (ArrayList lista,int numer){
+        System.out.println(lista.get(numer));
         System.out.println(" ");
 
     }
@@ -33,9 +52,8 @@ class Solution{
 
     }
 
+
     public static void main(String[] args){
-
-
 
         ArrayList<String> imie = new ArrayList<>();
         ArrayList<String> oceny = new ArrayList<>();
@@ -77,12 +95,20 @@ class Solution{
         imie.add("Damian Monor");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Maczka 90");
-        data.add("529.08.1999");
+        data.add("30.06.1999");
         nr_tel.add("567 880 880");
         e_mail.add("damian.monor@email.pl");
+        
+        imie.add("Adrian Gownal");
+        oceny.add("3,4,4,45");
+        adres.add("Kielca ul.Centralna 101");
+        data.add("30.06.1999");
+        nr_tel.add("456 333 234");
+        e_mail.add("adrian.gownal@email.pl");
 
-        Wyswietlanie_wszystkiego(imie,oceny,adres,data,nr_tel,e_mail,0);
 
+        Wysw_ostatnie_el(imie,2);
 
     }
 }
+
