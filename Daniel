@@ -15,7 +15,7 @@ class Solution{
         System.out.println(" ");
     }
 
-    public static void Wysw_ostatnie_el (ArrayList lista,int liczba){ // TU COS NIE DZIAŁA
+    public static void Wysw_ostatnie_el (ArrayList lista,int liczba){
         Collections.sort(lista);
         System.out.println("Wyswietlanie ostatnich elementów\n");
         for(int i = lista.size() - 1; i > liczba; i--)
@@ -190,35 +190,49 @@ class Solution{
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Podaj 1 liczba");
+        System.out.println("Cześc, wybierz liczbe od 1 do 4\n" +
+                "1. Wyswietlanie pierwszych elementów\n" +
+                "2. Wyswietlanie ostatnich elementów\n" +
+                "3. Wyswietlanie pojedyńczego elementu\n" +
+                "4. Wyswietlanie wszystkich informacji na temat jednej osoby\n" +
+                "5. Wyjdz z programu\n" +
+                "Twoj wybor to: \n");
+
         int Liczba = Integer.parseInt(reader.readLine());
-
-
-        switch(Liczba){
-            case 1:{
-                System.out.println("Ile chcesz elementów wyświetlić: ");
-                int Liczba_1 = Integer.parseInt(reader.readLine());
-                Wysw_pierwsze_el(imie,Liczba_1);
-                break;}
-            case 2:{
-                System.out.println("Wyswietlanie ostatnich elementów");
-                System.out.println("Ile chcesz elementów wyświetlić:");
-                int Liczba_1 = Integer.parseInt(reader.readLine());
-                Wysw_ostatnie_el(imie,Liczba_1);
-                break;}
-            case 3:{
-                System.out.println("Wyswietlanie pojedynczego elementów");
-                System.out.println("Ile chcesz elementów wyświetlić: ");
-                int Liczba_1 = Integer.parseInt(reader.readLine());
-                Wyswietlanie_elementu(imie,Liczba_1);
-                break;}
-            case 4:{
-                System.out.println("Wyswietlanie wszystkiego na temat jednej osoby: ");
-                System.out.println("Podaj numer osoby");
-                int Liczba_1 = Integer.parseInt(reader.readLine());
-                Wyswietlanie_wszystkiego(imie,oceny,adres,data,nr_tel,e_mail,Liczba_1);
-                break;}
-        }
+            switch (Liczba) {
+                case 1: {
+                    System.out.println("Wyswietlanie pierwszych elementów");
+                    System.out.println("Ile chcesz elementów wyświetlić: ");
+                    int Liczba_1 = Integer.parseInt(reader.readLine());
+                    Wysw_pierwsze_el(imie, Liczba_1);
+                    break;
+                }
+                case 2: {
+                    System.out.println("Wyswietlanie ostatnich elementów");
+                    System.out.println("Ile chcesz elementów wyświetlić:");
+                    int Liczba_1 = Integer.parseInt(reader.readLine());
+                    Wysw_ostatnie_el(imie, Liczba_1);
+                    break;
+                }
+                case 3: {
+                    System.out.println("Wyswietlanie pojedynczego elementów");
+                    System.out.println("Ile chcesz elementów wyświetlić: ");
+                    int Liczba_1 = Integer.parseInt(reader.readLine());
+                    Wyswietlanie_elementu(imie, Liczba_1);
+                    break;
+                }
+                case 4: {
+                    System.out.println("Wyswietlanie wszystkiego na temat jednej osoby: ");
+                    System.out.println("Podaj numer osoby");
+                    int Liczba_1 = Integer.parseInt(reader.readLine());
+                    Wyswietlanie_wszystkiego(imie, oceny, adres, data, nr_tel, e_mail, Liczba_1);
+                    break;
+                }
+                case 5: {
+                    System.out.println("Wychodzisz z programu.");
+                    break;
+                }
+            }
 
     }
 }
