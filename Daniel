@@ -100,11 +100,46 @@ class Solution{
         e_mail.add("damian.monor@email.pl");
         
         imie.add("Adrian Gownal");
-        oceny.add("3,4,4,45");
+        oceny.add("3,4,4,5");
         adres.add("Kielca ul.Centralna 101");
         data.add("30.06.1999");
         nr_tel.add("456 333 234");
         e_mail.add("adrian.gownal@email.pl");
+        
+        imie.add("Bartosz Kuwik");
+        oceny.add("4,5,5,5");
+        adres.add("Poznań ul.Walcewicza 12");
+        data.add("28.09.1999");
+        nr_tel.add("334 222 123");
+        e_mail.add("bartosz.kuwik@email.pl");
+        
+        imie.add("Ryszard Ozdoba");
+        oceny.add("2,2,3,4");
+        adres.add("Poznań ul.Warmińska 10");
+        data.add("15.07.1999");
+        nr_tel.add("234 556 745 ");
+        e_mail.add("ryszard.ozdoba@email.pl");
+        
+        imie.add("Emil Juczyn");
+        oceny.add("5,5,5,5");
+        adres.add("Poznań ul.Ludowa 34");
+        data.add("12.12.1999");
+        nr_tel.add("123 678 679");
+        e_mail.add("emil.juczyn@email.pl");
+        
+        imie.add("Adam Duch");
+        oceny.add("4,3,4,4");
+        adres.add("Poznań ul.Emrata 9");
+        data.add("26.05.1999");
+        nr_tel.add("788 765 124");
+        e_mail.add("adam.duch@email.pl");
+        
+        imie.add("Jakub Owink");
+        oceny.add("3,3,3,3");
+        adres.add("Poznań ul.Dywizji 1");
+        data.add("14.06.1999");
+        nr_tel.add("678 999 090");
+        e_mail.add("jakub.owink@email.pl");
 
 
         Wysw_ostatnie_el(imie,2);
