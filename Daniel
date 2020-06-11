@@ -192,19 +192,31 @@ class Solution{
 
         System.out.println("Podaj 1 liczba");
         int Liczba = Integer.parseInt(reader.readLine());
-        
+
+
         switch(Liczba){
             case 1:{
-                System.out.println("Wyswietlanie pierwszych elementów: ");
+                System.out.println("Ile chcesz elementów wyświetlić: ");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wysw_pierwsze_el(imie,Liczba_1);
                 break;}
             case 2:{
-                System.out.println("Wyswietlanie drugiego elementów: ");
+                System.out.println("Wyswietlanie ostatnich elementów");
+                System.out.println("Ile chcesz elementów wyświetlić:");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wysw_ostatnie_el(imie,Liczba_1);
                 break;}
             case 3:{
-                System.out.println("Wyswietlanie trzeciego elementów: ");
+                System.out.println("Wyswietlanie pojedynczego elementów");
+                System.out.println("Ile chcesz elementów wyświetlić: ");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wyswietlanie_elementu(imie,Liczba_1);
                 break;}
             case 4:{
-                System.out.println("Wyswietlanie 4 elementów: ");
+                System.out.println("Wyswietlanie wszystkiego na temat jednej osoby: ");
+                System.out.println("Podaj numer osoby");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wyswietlanie_wszystkiego(imie,oceny,adres,data,nr_tel,e_mail,Liczba_1);
                 break;}
         }
 
