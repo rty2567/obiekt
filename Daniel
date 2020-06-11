@@ -1,3 +1,5 @@
+import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,6 +8,7 @@ class Solution{
 
     public static void Wysw_pierwsze_el (ArrayList lista,int liczba){
         Collections.sort(lista);
+        System.out.println("Wyswietlanie pierwszych elementów\n");
         for(int i = 0; i < liczba ; i++){
             System.out.println(lista.get(i));
         }
@@ -14,6 +17,7 @@ class Solution{
 
     public static void Wysw_ostatnie_el (ArrayList lista,int liczba){
         Collections.sort(lista);
+        System.out.println("Wyswietlanie ostatnich elementów\n");
         for(int i = lista.size() - 1; i > liczba; i--)
         {
             System.out.println(lista.get(i));
@@ -22,17 +26,19 @@ class Solution{
     }
 
     public static ArrayList Sortowanie (ArrayList lista ){
+        System.out.println("Sortowanie listy\n");
         Collections.sort(lista);
 
         for (int i = 0; i < lista.size(); i++){
 
-            System.out.println(lista.get(i));
+            System.out.println(" nr " + (i+1) + " " + lista.get(i));
         }
         System.out.println(" ");
         return lista;
     }
 
     public static void  Wyswietlanie_elementu (ArrayList lista,int numer){
+        System.out.println("Wyswietlanie elemntu\n");
         System.out.println(lista.get(numer));
         System.out.println(" ");
 
@@ -51,7 +57,7 @@ class Solution{
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
 
         ArrayList<String> imie = new ArrayList<>();
         ArrayList<String> oceny = new ArrayList<>();
@@ -96,42 +102,42 @@ class Solution{
         data.add("30.06.1999");
         nr_tel.add("567 880 880");
         e_mail.add("damian.monor@email.pl");
-        
+
         imie.add("Adrian Gownal");
         oceny.add("3,4,4,5");
         adres.add("Kielca ul.Centralna 101");
         data.add("30.06.1999");
         nr_tel.add("456 333 234");
         e_mail.add("adrian.gownal@email.pl");
-        
+
         imie.add("Bartosz Kuwik");
         oceny.add("4,5,5,5");
         adres.add("Poznań ul.Walcewicza 12");
         data.add("28.09.1999");
         nr_tel.add("334 222 123");
         e_mail.add("bartosz.kuwik@email.pl");
-        
+
         imie.add("Ryszard Ozdoba");
         oceny.add("2,2,3,4");
         adres.add("Poznań ul.Warmińska 10");
         data.add("15.07.1999");
         nr_tel.add("234 556 745 ");
         e_mail.add("ryszard.ozdoba@email.pl");
-        
+
         imie.add("Emil Juczyn");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Ludowa 34");
         data.add("12.12.1999");
         nr_tel.add("123 678 679");
         e_mail.add("emil.juczyn@email.pl");
-        
+
         imie.add("Adam Duch");
         oceny.add("4,3,4,4");
         adres.add("Poznań ul.Emrata 9");
         data.add("26.05.1999");
         nr_tel.add("788 765 124");
         e_mail.add("adam.duch@email.pl");
-        
+
         imie.add("Jakub Owink");
         oceny.add("3,3,3,3");
         adres.add("Poznań ul.Dywizji 1");
@@ -139,9 +145,68 @@ class Solution{
         nr_tel.add("678 999 090");
         e_mail.add("jakub.owink@email.pl");
 
+        imie.add("Aleksy Lis");
+        oceny.add("4,4,4,5");
+        adres.add("Poznań ul.Telińska 12");
+        data.add("07.08.1999");
+        nr_tel.add("178 888 990");
+        e_mail.add("aleksy.lis@emial.pl");
 
-        Wysw_ostatnie_el(imie,2);
+        imie.add("Mariusz Luk");
+        oceny.add("2,2,2,3");
+        adres.add("Poznań ul.Tulipanowa 15");
+        data.add("15.09.1999");
+        nr_tel.add("178 777 989");
+        e_mail.add("mariusz.luk@email.pl");
+
+        imie.add("Karol Uchyka");
+        oceny.add("4,5,5,5");
+        adres.add("Szczecin ul.Maldowskiego 27");
+        data.add("15.09.1999");
+        nr_tel.add("123 786 753");
+        e_mail.add("karol.uchyka@email.pl");
+
+        imie.add("Sylwia Kumna");
+        oceny.add("3,3,4,4");
+        adres.add("Poznań ul.Jeżego 45");
+        data.add("31.08.1999");
+        nr_tel.add("777 296 619");
+        e_mail.add("sylwia.kumna@email.pl");
+
+        imie.add("Patryk Tyczka");
+        oceny.add("4,4,3,5");
+        adres.add("Poznań ul.Lejkowska 22");
+        data.add("01.01.1999");
+        nr_tel.add("760 098 023");
+        e_mail.add("patryk.tyczka@email.pl");
+
+        imie.add("Patryk Ul");
+        oceny.add("3,3,4,5");
+        adres.add("Poznań ul.Klinczowa 472");
+        data.add("03.05.1999");
+        nr_tel.add("592 209 978");
+        e_mail.add("patryk.ul@email.pl");
+
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Podaj 1 liczba");
+        int Liczba = Integer.parseInt(reader.readLine());
+        
+        switch(Liczba){
+            case 1:{
+                System.out.println("Wyswietlanie pierwszych elementów: ");
+                break;}
+            case 2:{
+                System.out.println("Wyswietlanie drugiego elementów: ");
+                break;}
+            case 3:{
+                System.out.println("Wyswietlanie trzeciego elementów: ");
+                break;}
+            case 4:{
+                System.out.println("Wyswietlanie 4 elementów: ");
+                break;}
+        }
 
     }
 }
-
