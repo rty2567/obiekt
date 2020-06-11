@@ -69,7 +69,7 @@ class Solution{
 
         imie.add("Kamil Usicki");
         oceny.add("4,5,3,4");
-        adres.add("Poznań ul.Mazurska 34 ");
+        adres.add("Poznań ul.Mazurska 34");
         data.add("23.08.1999");
         nr_tel.add("897 897 678");
         e_mail.add("kamil.usicki@email.pl");
@@ -186,6 +186,509 @@ class Solution{
         data.add("03.05.1999");
         nr_tel.add("592 209 978");
         e_mail.add("patryk.ul@email.pl");
+
+        imie.add("Przemek Wylik");
+        oceny.add("2,2,3,2");
+        adres.add("Poznań ul.Warszawska 16");
+        data.add("07.10.1999");
+        nr_tel.add("709 990 290");
+        e_mail.add("przemek.wylik@email.pl");
+
+        imie.add("Joanna Tomczewska");
+        oceny.add("4,4,5,5");
+        adres.add("Poznań ul.Lwia 78");
+        data.add("18.11.1999");
+        nr_tel.add("820 029 186");
+        e_mail.add("joanna.tomczewska@email.pl");
+
+        imie.add("Iga Chorondewska ");
+        oceny.add("3,4,5,5");
+        adres.add("Poznań ul.Lipy 23");
+        data.add("03.09.1999");
+        nr_tel.add("789 890 000");
+        e_mail.add("iga.chorondewska@email.pl");
+
+        imie.add("Wojciech Felka");
+        oceny.add("3,3,4,4");
+        adres.add("Poznań ul.Kalinowska 33");
+        data.add("09.08.1999");
+        nr_tel.add("166 766 824");
+        e_mail.add("wojciech.felka@email.pl");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        // 50 list
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+
+
+
 
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
