@@ -623,12 +623,12 @@ class Solution{
         nr_tel.add("562 762 829");
         e_mail.add("gracjan.halikowski@email.pl");
 
-        imie.add("");
-        oceny.add("");
-        adres.add("");
-        data.add("");
-        nr_tel.add("");
-        e_mail.add("");
+        imie.add("Adam Gochman");
+        oceny.add("3,3,5,4");
+        adres.add("Poznań ul.Ludowa 30");
+        data.add("23.05.1998");
+        nr_tel.add("348 289 278");
+        e_mail.add("adam.gochman@email.pl");
 
         imie.add("");
         oceny.add("");
@@ -637,28 +637,28 @@ class Solution{
         nr_tel.add("");
         e_mail.add("");
 
-        imie.add("");
-        oceny.add("");
-        adres.add("");
-        data.add("");
-        nr_tel.add("");
-        e_mail.add("");
+        imie.add("Alicja Kaliska");
+        oceny.add("3,4,4,4");
+        adres.add("Poznań ul.Henrego 78");
+        data.add("17.09.1998");
+        nr_tel.add("178 176 268");
+        e_mail.add("alicja.kaliska@email.pl");
 
-        imie.add("");
-        oceny.add("");
-        adres.add("");
-        data.add("");
-        nr_tel.add("");
-        e_mail.add("");
+        imie.add("Jakub Mawilski");
+        oceny.add("5,4,4,3");
+        adres.add("Poznań ul.Tężyńska 62");
+        data.add("02.05.1998");
+        nr_tel.add("378 290 281");
+        e_mail.add("jakub.mawilski@email.pl");
 
-        imie.add("");
-        oceny.add("");
-        adres.add("");
-        data.add("");
-        nr_tel.add("");
-        e_mail.add("");
+        imie.add("Igor Rogowski");
+        oceny.add("3,3,4,4");
+        adres.add("Poznań ul.Łękowska 20");
+        data.add("08.06.1998");
+        nr_tel.add("178 295 158");
+        e_mail.add("igor.rogowski@email.pl");
 
-        imie.add("");
+        imie.add("Paulina Pietrzak");
         oceny.add("");
         adres.add("");
         data.add("");
