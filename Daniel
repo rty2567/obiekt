@@ -780,7 +780,7 @@ class Solution{
         imie.add("Aleksandra Lis");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Powańska 20");
-        data.add(28.03.1998"");
+        data.add("28.03.1998");
         nr_tel.add("184 638 444");
         e_mail.add("aleksandra.lis@email.pl");
 
