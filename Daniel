@@ -659,12 +659,173 @@ class Solution{
         e_mail.add("igor.rogowski@email.pl");
 
         imie.add("Paulina Pietrzak");
+        oceny.add("5,4,5,5");
+        adres.add("Poznań ul.Konwaliowa 29");
+        data.add("01.01.1998");
+        nr_tel.add("387 282 272");
+        e_mail.add("paulina.pietrzak@email.pl");
+
+        imie.add("Klaudia Chorakowska");
+        oceny.add("5,5,5,5");
+        adres.add("Poznań ul.Rycińskiego 60");
+        data.add("09.12.1998");
+        nr_tel.add("476 278 879");
+        e_mail.add("klaudia.chorakowska@email.pl");
+
+        imie.add("Karina Fyka");
+        oceny.add("4,3,5,5");
+        adres.add("Poznań ul.Saczyńska 72");
+        data.add("23.01.1998");
+        nr_tel.add("627 625 099");
+        e_mail.add("karina.fyka@email.pl");
+
+        imie.add("Aleksander Hylk");
+        oceny.add("4,3,3,3");
+        adres.add("Poznań ul.Hycla 29");
+        data.add("17.06.1998");
+        nr_tel.add("345 499 376");
+        e_mail.add("aleksander.hylk@email.pl");
+
+        imie.add("Damian Polkaw");
+        oceny.add("4,3,3,53");
+        adres.add("Poznań ul.Kaktusowa 46");
+        data.add("30.09.1998");
+        nr_tel.add("388 292 378");
+        e_mail.add("damian.polkaw@email.pl");
+
+        imie.add("");
         oceny.add("");
         adres.add("");
         data.add("");
         nr_tel.add("");
         e_mail.add("");
 
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+        
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+                
         imie.add("");
         oceny.add("");
         adres.add("");
