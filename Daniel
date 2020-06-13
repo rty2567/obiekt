@@ -630,13 +630,6 @@ class Solution{
         nr_tel.add("348 289 278");
         e_mail.add("adam.gochman@email.pl");
 
-        imie.add("");
-        oceny.add("");
-        adres.add("");
-        data.add("");
-        nr_tel.add("");
-        e_mail.add("");
-
         imie.add("Alicja Kaliska");
         oceny.add("3,4,4,4");
         adres.add("Poznań ul.Henrego 78");
