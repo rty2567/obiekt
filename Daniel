@@ -44,7 +44,7 @@ class Solution{
 
     }
 
-    public static void  Wyswietlanie_wszystkiego (ArrayList imie,ArrayList oceny,ArrayList adres,ArrayList data,ArrayList nr_tel,ArrayList e_mail ,int numer){
+    public static void  Wyswietlanie_wszystkiego (ArrayList imie,ArrayList oceny,ArrayList adres,ArrayList data,ArrayList nr_tel,ArrayList e_mail,ArrayList rok,ArrayList kierunek ,int numer){
 
         System.out.println(imie.get(numer));
         System.out.println(oceny.get(numer));
@@ -52,6 +52,8 @@ class Solution{
         System.out.println(data.get(numer));
         System.out.println(nr_tel.get(numer));
         System.out.println(e_mail.get(numer));
+        System.out.println(rok.get(numer));
+        System.out.println(kierunek.get(numer));
         System.out.println(" ");
 
     }
@@ -65,7 +67,10 @@ class Solution{
         ArrayList<String> data = new ArrayList<>();
         ArrayList<String> nr_tel = new ArrayList<>();
         ArrayList<String> e_mail = new ArrayList<>();
+        ArrayList<String> rok = new ArrayList<>();
+        ArrayList<String> kierunek = new ArrayList<>();
 
+        // rok 1 - Informatyka
 
         imie.add("Kamil Usicki");
         oceny.add("4,5,3,4");
@@ -73,7 +78,8 @@ class Solution{
         data.add("23.08.1999");
         nr_tel.add("897 897 678");
         e_mail.add("kamil.usicki@email.pl");
-
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Magdalena Konwalia");
         oceny.add("3,5,5,5");
@@ -81,6 +87,8 @@ class Solution{
         data.add("09.09.1999");
         nr_tel.add("789 234 876");
         e_mail.add("magdalena.konwalia@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Jakub Wilk");
         oceny.add("2,3,5,3");
@@ -88,6 +96,8 @@ class Solution{
         data.add("08.07.1999");
         nr_tel.add("123 455 678");
         e_mail.add("jakub.wilk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Julita Monkowska");
         oceny.add("3,3,4,4");
@@ -95,6 +105,8 @@ class Solution{
         data.add("12.03.1999");
         nr_tel.add("234 678 990");
         e_mail.add("julita.monkowska@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Damian Monor");
         oceny.add("5,5,5,5");
@@ -102,6 +114,8 @@ class Solution{
         data.add("30.06.1999");
         nr_tel.add("567 880 880");
         e_mail.add("damian.monor@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Adrian Gownal");
         oceny.add("3,4,4,5");
@@ -109,6 +123,8 @@ class Solution{
         data.add("30.06.1999");
         nr_tel.add("456 333 234");
         e_mail.add("adrian.gownal@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Bartosz Kuwik");
         oceny.add("4,5,5,5");
@@ -116,6 +132,8 @@ class Solution{
         data.add("28.09.1999");
         nr_tel.add("334 222 123");
         e_mail.add("bartosz.kuwik@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Ryszard Ozdoba");
         oceny.add("2,2,3,4");
@@ -123,6 +141,8 @@ class Solution{
         data.add("15.07.1999");
         nr_tel.add("234 556 745 ");
         e_mail.add("ryszard.ozdoba@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Emil Juczyn");
         oceny.add("5,5,5,5");
@@ -130,6 +150,8 @@ class Solution{
         data.add("12.12.1999");
         nr_tel.add("123 678 679");
         e_mail.add("emil.juczyn@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Adam Duch");
         oceny.add("4,3,4,4");
@@ -137,6 +159,8 @@ class Solution{
         data.add("26.05.1999");
         nr_tel.add("788 765 124");
         e_mail.add("adam.duch@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Jakub Owink");
         oceny.add("3,3,3,3");
@@ -144,6 +168,8 @@ class Solution{
         data.add("14.06.1999");
         nr_tel.add("678 999 090");
         e_mail.add("jakub.owink@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Aleksy Lis");
         oceny.add("4,4,4,5");
@@ -151,6 +177,8 @@ class Solution{
         data.add("07.08.1999");
         nr_tel.add("178 888 990");
         e_mail.add("aleksy.lis@emial.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Mariusz Luk");
         oceny.add("2,2,2,3");
@@ -158,6 +186,8 @@ class Solution{
         data.add("15.09.1999");
         nr_tel.add("178 777 989");
         e_mail.add("mariusz.luk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Karol Uchyka");
         oceny.add("4,5,5,5");
@@ -165,6 +195,8 @@ class Solution{
         data.add("15.09.1999");
         nr_tel.add("123 786 753");
         e_mail.add("karol.uchyka@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Sylwia Kumna");
         oceny.add("3,3,4,4");
@@ -172,6 +204,8 @@ class Solution{
         data.add("31.08.1999");
         nr_tel.add("777 296 619");
         e_mail.add("sylwia.kumna@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Patryk Tyczka");
         oceny.add("4,4,3,5");
@@ -179,6 +213,8 @@ class Solution{
         data.add("01.01.1999");
         nr_tel.add("760 098 023");
         e_mail.add("patryk.tyczka@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Patryk Ul");
         oceny.add("3,3,4,5");
@@ -186,6 +222,8 @@ class Solution{
         data.add("03.05.1999");
         nr_tel.add("592 209 978");
         e_mail.add("patryk.ul@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Przemek Wylik");
         oceny.add("2,2,3,2");
@@ -193,6 +231,8 @@ class Solution{
         data.add("07.10.1999");
         nr_tel.add("709 990 290");
         e_mail.add("przemek.wylik@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
 
         imie.add("Joanna Tomczewska");
         oceny.add("4,4,5,5");
@@ -200,6 +240,10 @@ class Solution{
         data.add("18.11.1999");
         nr_tel.add("820 029 186");
         e_mail.add("joanna.tomczewska@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Informatyka");
+
+        // rok 1 - Ekonomia
 
         imie.add("Iga Chorondewska ");
         oceny.add("3,4,5,5");
@@ -207,6 +251,8 @@ class Solution{
         data.add("03.09.1999");
         nr_tel.add("789 890 000");
         e_mail.add("iga.chorondewska@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Wojciech Felka");
         oceny.add("3,3,4,4");
@@ -214,6 +260,8 @@ class Solution{
         data.add("09.08.1999");
         nr_tel.add("166 766 824");
         e_mail.add("wojciech.felka@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Jakub Tyczka");
         oceny.add("5,5,5,5");
@@ -221,6 +269,8 @@ class Solution{
         data.add("21.09.1999");
         nr_tel.add("786 666 155");
         e_mail.add("jakub.tyczka@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Oliwia Tonkowska");
         oceny.add("5,5,5,5");
@@ -228,6 +278,8 @@ class Solution{
         data.add("13.03.1999");
         nr_tel.add("344 111 555");
         e_mail.add("oliwia.tonkowska@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Agnieszka Duch");
         oceny.add("5,5,3,3");
@@ -235,6 +287,8 @@ class Solution{
         data.add("29.12.1999");
         nr_tel.add("234 788 122");
         e_mail.add("agnieszka.duch@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Damian Kilk");
         oceny.add("4,4,3,4");
@@ -242,6 +296,8 @@ class Solution{
         data.add("17.05.1999");
         nr_tel.add("466 444 000");
         e_mail.add("damian.kilk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Krystian Matyk");
         oceny.add("2,2,3,4");
@@ -249,6 +305,8 @@ class Solution{
         data.add("12.04.1999");
         nr_tel.add("567 129 333");
         e_mail.add("krystian.matyk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Jakub Chych");
         oceny.add("5,5,4,3");
@@ -256,6 +314,8 @@ class Solution{
         data.add("07.06.1999");
         nr_tel.add("899 093 739");
         e_mail.add("jakub.chych@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Magdalena Cirkowska");
         oceny.add("5,5,5,5");
@@ -263,6 +323,8 @@ class Solution{
         data.add("19.09.1999");
         nr_tel.add("789 655 000");
         e_mail.add("magdalena.cirkowska@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Adrian Lis");
         oceny.add("4,4,5,4");
@@ -270,6 +332,8 @@ class Solution{
         data.add("10.02.1999");
         nr_tel.add("127 788 020");
         e_mail.add("adrian.lis@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Mirek Olik");
         oceny.add("5,3,5,4");
@@ -277,6 +341,8 @@ class Solution{
         data.add("19.05.1999");
         nr_tel.add("477 980 127");
         e_mail.add("mirek.olik@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Emil Krawtan");
         oceny.add("5,5,5,3");
@@ -284,6 +350,8 @@ class Solution{
         data.add("21.06.1999");
         nr_tel.add("678 456 902");
         e_mail.add("emil.krawtan@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Krystyna Wierzba");
         oceny.add("4,4,5,3");
@@ -291,6 +359,8 @@ class Solution{
         data.add("09.02.1999");
         nr_tel.add("234 678 222");
         e_mail.add("krystyna.wierzba@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Sebastian Milk");
         oceny.add("4,3,3,3");
@@ -298,6 +368,8 @@ class Solution{
         data.add("16.05.1999");
         nr_tel.add("478 098 999");
         e_mail.add("sebastian.milk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Maja Ikowska");
         oceny.add("2,3,3,3");
@@ -305,6 +377,8 @@ class Solution{
         data.add("18.08.1999");
         nr_tel.add("677 654 298");
         e_mail.add("maja.ikowska@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Grzegorz Rilski");
         oceny.add("3,4,4,4");
@@ -312,6 +386,8 @@ class Solution{
         data.add("07.01.1999");
         nr_tel.add("098 872 322");
         e_mail.add("grzegorz.rilski@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Alicja Surna");
         oceny.add("5,5,5,5");
@@ -319,6 +395,8 @@ class Solution{
         data.add("19.09.1999");
         nr_tel.add("876 000 002");
         e_mail.add("alicja.surna@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Krystian Duk");
         oceny.add("3,4,5,5");
@@ -326,6 +404,8 @@ class Solution{
         data.add("08.02.1999");
         nr_tel.add("289 672 092");
         e_mail.add("krystian.duk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Aleksander Kotowski");
         oceny.add("2,2,3,3");
@@ -333,6 +413,8 @@ class Solution{
         data.add("23.01.1999");
         nr_tel.add("578 289 678");
         e_mail.add("aleksander.kotowski@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
 
         imie.add("Czarek Wojtkowski");
         oceny.add("5,5,5,2");
@@ -340,6 +422,10 @@ class Solution{
         data.add("17.05.1999");
         nr_tel.add("289 078 777");
         e_mail.add("czarek.wojtkowski@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Ekonomia");
+
+        // rok 1 - Zarządzanie
 
         imie.add("Aleksander Minuseor");
         oceny.add("4,4,5,5");
@@ -347,6 +433,8 @@ class Solution{
         data.add("04.07.1999");
         nr_tel.add("899 098 277");
         e_mail.add("aleksander.minuseor@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Wojciech Kruk");
         oceny.add("4,3,3,2");
@@ -354,6 +442,8 @@ class Solution{
         data.add("08.08.1999");
         nr_tel.add("627 999 999");
         e_mail.add("wojciech.kruk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Maja Lisowska");
         oceny.add("4,4,4,4");
@@ -361,6 +451,8 @@ class Solution{
         data.add("23.07.1999");
         nr_tel.add("389 000 000");
         e_mail.add("maja.lisowska@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Emilia Grut");
         oceny.add("5,5,2,2");
@@ -368,6 +460,8 @@ class Solution{
         data.add("14.02.1998");
         nr_tel.add("267 876 000");
         e_mail.add("emilia.grut@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Paulina Pochecka");
         oceny.add("4,4,5,3");
@@ -375,6 +469,8 @@ class Solution{
         data.add("19.09.1999");
         nr_tel.add("720 290 289");
         e_mail.add("paulina.pochecka@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Henryk Balszczyk");
         oceny.add("5,5,3,4");
@@ -382,6 +478,8 @@ class Solution{
         data.add("20.01.1999");
         nr_tel.add("178 567 098");
         e_mail.add("henryk.balszczyk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Ryszard Wawel");
         oceny.add("4,5,5,5");
@@ -389,6 +487,8 @@ class Solution{
         data.add("30.04.1999");
         nr_tel.add("892 299 290");
         e_mail.add("ryszard.wawel@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Alan Witolski");
         oceny.add("4,4,4,5");
@@ -396,6 +496,8 @@ class Solution{
         data.add("10.07.1999");
         nr_tel.add("678 099 280");
         e_mail.add("alan.witolski@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Karol Grzerka");
         oceny.add("5,5,5,5");
@@ -403,6 +505,8 @@ class Solution{
         data.add("19.09.1999");
         nr_tel.add("785 098 555");
         e_mail.add("karol.grzerka@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Wiktoria Parys");
         oceny.add("5,5,2,3");
@@ -410,8 +514,8 @@ class Solution{
         data.add("20.10.1999");
         nr_tel.add("678 666 666");
         e_mail.add("wiktoria.parys@email.pl");
-
-        // 50 list
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Daria Juchin");
         oceny.add("3,4,5,5");
@@ -419,6 +523,8 @@ class Solution{
         data.add("09.07.1999");
         nr_tel.add("768 555 246");
         e_mail.add("daria.juchin@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Weronika Kumina");
         oceny.add("5,5,3,2");
@@ -426,6 +532,8 @@ class Solution{
         data.add("19.04.1999");
         nr_tel.add("290 982 378");
         e_mail.add("weronika.kumina@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Emil Modlik");
         oceny.add("5,5,5,5");
@@ -433,6 +541,8 @@ class Solution{
         data.add("12.04.1999");
         nr_tel.add("456 890 244");
         e_mail.add("emil.modlik@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Borys Iwkan");
         oceny.add("3,2,2,2");
@@ -440,6 +550,8 @@ class Solution{
         data.add("09.10.1999");
         nr_tel.add("678 378 009");
         e_mail.add("borys.iwkan@emial.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Tymon Ocelot");
         oceny.add("4,4,3,4");
@@ -447,6 +559,8 @@ class Solution{
         data.add("13.06.1999");
         nr_tel.add("744 909 908");
         e_mail.add("tymon.ocelot@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Julia Tyczka");
         oceny.add("5,5,3,3");
@@ -454,6 +568,8 @@ class Solution{
         data.add("20.07.1999");
         nr_tel.add("678 398 909");
         e_mail.add("julia.tyczka@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Dawid Golan");
         oceny.add("5,5,3,4");
@@ -461,6 +577,8 @@ class Solution{
         data.add("30.09.1999");
         nr_tel.add("456 678 029");
         e_mail.add("dawid.golan@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Henryk Stos");
         oceny.add("4,4,3,3");
@@ -468,6 +586,8 @@ class Solution{
         data.add("20.12.1999");
         nr_tel.add("722 677 211");
         e_mail.add("henryk.stos@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Grzegorz Kot");
         oceny.add("5,4,4,3");
@@ -475,6 +595,8 @@ class Solution{
         data.add("30.03.1999");
         nr_tel.add("678 290 999");
         e_mail.add("grzegorz.kot@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
 
         imie.add("Przemek Artyk");
         oceny.add("5,5,5,5");
@@ -482,6 +604,10 @@ class Solution{
         data.add("17.05.1999");
         nr_tel.add("472 878 000");
         e_mail.add("przemek.artyk@email.pl");
+        rok.add("rok 1");
+        kierunek.add("Zarządzanie");
+
+        // rok 2 - Informatyka
 
         imie.add("Bartosz Ruk");
         oceny.add("3,2,2,2");
@@ -489,6 +615,8 @@ class Solution{
         data.add("12.09.1998");
         nr_tel.add("098 780 023");
         e_mail.add("bartosz.ruk@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Alicja Mogda");
         oceny.add("4,4,3,5");
@@ -496,6 +624,8 @@ class Solution{
         data.add("19.06.1998");
         nr_tel.add("909 909 372");
         e_mail.add("alicja.mogda@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Krystian Mawin");
         oceny.add("5,5,5,5");
@@ -503,6 +633,8 @@ class Solution{
         data.add("15.07.1998");
         nr_tel.add("178 675 897");
         e_mail.add("krystian.mawin@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Iga Dwiska");
         oceny.add("4,4,3,4");
@@ -510,6 +642,8 @@ class Solution{
         data.add("18.09.1998");
         nr_tel.add("780 657 712");
         e_mail.add("iga.dwiska@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Jakub Ilkowski");
         oceny.add("5,3,3,3");
@@ -517,6 +651,8 @@ class Solution{
         data.add("04.02.1998");
         nr_tel.add("682 981 111");
         e_mail.add("jakub.ilkowski@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Damian Ulik");
         oceny.add("2,2,4,3");
@@ -524,6 +660,8 @@ class Solution{
         data.add("17.05.1998");
         nr_tel.add("629 981 190");
         e_mail.add("damian.ulik@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Bartosz Wilk");
         oceny.add("2,3,3,3");
@@ -531,6 +669,8 @@ class Solution{
         data.add("18.12.1998");
         nr_tel.add("711 711 901");
         e_mail.add("bartosz.wilk@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Bogdan Markowski");
         oceny.add("5,4,3,3");
@@ -538,6 +678,8 @@ class Solution{
         data.add("14.12.1998");
         nr_tel.add("890 897 126");
         e_mail.add("bogdan.markowski@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Maja Kalik");
         oceny.add("4,4,4,4");
@@ -545,6 +687,8 @@ class Solution{
         data.add("17.02.1998");
         nr_tel.add("456 782 909");
         e_mail.add("maja.kalik@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Filip Krzyk");
         oceny.add("3,2,3,4");
@@ -559,6 +703,8 @@ class Solution{
         data.add("30.04.1998");
         nr_tel.add("562 222 654");
         e_mail.add("kacper.erych@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Julia Wyk");
         oceny.add("5,4,3,3");
@@ -566,6 +712,8 @@ class Solution{
         data.add("13.09.1998");
         nr_tel.add("278 267 587");
         e_mail.add("julia.wyk@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Ewelina Folkr");
         oceny.add("5,3,4,5");
@@ -573,6 +721,8 @@ class Solution{
         data.add("07.08.1998");
         nr_tel.add("564 345 678");
         e_mail.add("ewelina.folkr@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Wiktoria Jyk");
         oceny.add("5,5,5,5");
@@ -580,6 +730,8 @@ class Solution{
         data.add("09.09.1998");
         nr_tel.add("382 727 257");
         e_mail.add("wiktoria.jyk@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Dawid Oski");
         oceny.add("4,4,3,3");
@@ -587,6 +739,8 @@ class Solution{
         data.add("12.07.1998");
         nr_tel.add("728 827 289");
         e_mail.add("dawid.oski@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Weronika Ulska");
         oceny.add("4,3,3,3");
@@ -594,6 +748,8 @@ class Solution{
         data.add("19.02.1998");
         nr_tel.add("278 567 245");
         e_mail.add("weronika.ulska@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Bartosz Guzin");
         oceny.add("3,3,3,3");
@@ -601,6 +757,8 @@ class Solution{
         data.add("29.01.1998");
         nr_tel.add("367 728 099");
         e_mail.add("bartosz.guzin@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Iga Byk");
         oceny.add("2,2,3,4");
@@ -608,6 +766,8 @@ class Solution{
         data.add("17.04.1998");
         nr_tel.add("282 267 209");
         e_mail.add("iga.byk@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Marcin Ducin ");
         oceny.add("3,3,3,3");
@@ -615,6 +775,8 @@ class Solution{
         data.add("30.03.1998");
         nr_tel.add("278 567 267");
         e_mail.add("marcin.ducin@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
 
         imie.add("Gracjan Halikowski");
         oceny.add("4,5,5,5");
@@ -622,6 +784,64 @@ class Solution{
         data.add("12.06.1998");
         nr_tel.add("562 762 829");
         e_mail.add("gracjan.halikowski@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Informatyka");
+
+        // rok 2 - Ekonomia
+
+        imie.add("Adam Gochman");
+        oceny.add("3,3,5,4");
+        adres.add("Poznań ul.Ludowa 30");
+        data.add("23.05.1998");
+        nr_tel.add("348 289 278");
+        e_mail.add("adam.gochman@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("Alicja Kaliska");
+        oceny.add("3,4,4,4");
+        adres.add("Poznań ul.Henrego 78");
+        data.add("17.09.1998");
+        nr_tel.add("178 176 268");
+        e_mail.add("alicja.kaliska@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("Jakub Mawilski");
+        oceny.add("5,4,4,3");
+        adres.add("Poznań ul.Tężyńska 62");
+        data.add("02.05.1998");
+        nr_tel.add("378 290 281");
+        e_mail.add("jakub.mawilski@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("Igor Rogowski");
+        oceny.add("3,3,4,4");
+        adres.add("Poznań ul.Łękowska 20");
+        data.add("08.06.1998");
+        nr_tel.add("178 295 158");
+        e_mail.add("igor.rogowski@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("Paulina Pietrzak");
+        oceny.add("5,4,5,5");
+        adres.add("Poznań ul.Konwaliowa 29");
+        data.add("01.01.1998");
+        nr_tel.add("387 282 272");
+        e_mail.add("paulina.pietrzak@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("Klaudia Chorakowska");
+        oceny.add("5,5,5,5");
+        adres.add("Poznań ul.Rycińskiego 60");
+        data.add("09.12.1998");
+        nr_tel.add("476 278 879");
+        e_mail.add("klaudia.chorakowska@email.pl");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -629,6 +849,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -636,6 +858,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -643,6 +867,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -650,6 +876,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -657,6 +885,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -664,6 +894,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -671,6 +903,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -678,6 +912,8 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
 
         imie.add("");
         oceny.add("");
@@ -685,6 +921,65 @@ class Solution{
         data.add("");
         nr_tel.add("");
         e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+        rok.add("rok 2");
+        kierunek.add("Ekonomia");
+
+        // rok 2 - Zarządzanie
+
+        imie.add("");
+        oceny.add("");
+        adres.add("");
+        data.add("");
+        nr_tel.add("");
+        e_mail.add("");
+        rok.add("");
+        kierunek.add("");
+
 
 
 
@@ -702,40 +997,40 @@ class Solution{
                 "Twoj wybor to: \n");
 
         int Liczba = Integer.parseInt(reader.readLine());
-            switch (Liczba) {
-                case 1: {
-                    System.out.println("Wyswietlanie pierwszych elementów");
-                    System.out.println("Ile chcesz elementów wyświetlić: ");
-                    int Liczba_1 = Integer.parseInt(reader.readLine());
-                    Wysw_pierwsze_el(imie, Liczba_1);
-                    break;
-                }
-                case 2: {
-                    System.out.println("Wyswietlanie ostatnich elementów");
-                    System.out.println("Ile chcesz elementów wyświetlić:");
-                    int Liczba_1 = Integer.parseInt(reader.readLine());
-                    Wysw_ostatnie_el(imie, Liczba_1);
-                    break;
-                }
-                case 3: {
-                    System.out.println("Wyswietlanie pojedynczego elementów");
-                    System.out.println("Ile chcesz elementów wyświetlić: ");
-                    int Liczba_1 = Integer.parseInt(reader.readLine());
-                    Wyswietlanie_elementu(imie, Liczba_1);
-                    break;
-                }
-                case 4: {
-                    System.out.println("Wyswietlanie wszystkiego na temat jednej osoby: ");
-                    System.out.println("Podaj numer osoby");
-                    int Liczba_1 = Integer.parseInt(reader.readLine());
-                    Wyswietlanie_wszystkiego(imie, oceny, adres, data, nr_tel, e_mail, Liczba_1);
-                    break;
-                }
-                case 5: {
-                    System.out.println("Wychodzisz z programu.");
-                    break;
-                }
+        switch (Liczba) {
+            case 1: {
+                System.out.println("Wyswietlanie pierwszych elementów");
+                System.out.println("Ile chcesz elementów wyświetlić: ");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wysw_pierwsze_el(imie, Liczba_1);
+                break;
             }
+            case 2: {
+                System.out.println("Wyswietlanie ostatnich elementów");
+                System.out.println("Ile chcesz elementów wyświetlić:");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wysw_ostatnie_el(imie, Liczba_1);
+                break;
+            }
+            case 3: {
+                System.out.println("Wyswietlanie pojedynczego elementów");
+                System.out.println("Ile chcesz elementów wyświetlić: ");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wyswietlanie_elementu(imie, Liczba_1);
+                break;
+            }
+            case 4: {
+                System.out.println("Wyswietlanie wszystkiego na temat jednej osoby: ");
+                System.out.println("Podaj numer osoby");
+                int Liczba_1 = Integer.parseInt(reader.readLine());
+                Wyswietlanie_wszystkiego(imie, oceny, adres, data, nr_tel, e_mail, rok, kierunek, Liczba_1);
+                break;
+            }
+            case 5: {
+                System.out.println("Wychodzisz z programu.");
+                break;
+            }
+        }
 
     }
 }
