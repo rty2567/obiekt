@@ -1084,18 +1084,6 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-        imie.add("");
-        oceny.add("");
-        adres.add("");
-        data.add("");
-        nr_tel.add("");
-        e_mail.add("");
-        rok.add("");
-        kierunek.add("");
-
-
-
-
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Cześc, wybierz liczbe od 1 do 4\n" +
@@ -1172,6 +1160,7 @@ class Solution{
             }
             case 7:{
                 Wyswietlanie_wszystkiego_Cala_Lista(imie,oceny,adres,data,nr_tel,e_mail,rok,kierunek);
+                break;
             }
         }
 
