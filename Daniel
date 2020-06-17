@@ -1086,7 +1086,7 @@ class Solution{
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Cześc, wybierz liczbe od 1 do 4\n" +
+        System.out.println("Cześc, wybierz liczbe\n" +
                 "1. Wyswietlanie pierwszych elementów\n" +
                 "2. Wyswietlanie ostatnich elementów\n" +
                 "3. Wyswietlanie pojedyńczego elementu\n" +
