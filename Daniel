@@ -57,6 +57,20 @@ class Solution{
         System.out.println(" ");
 
     }
+    
+    public static void  Wyswietlanie_wszystkiego_Cala_Lista (ArrayList imie,ArrayList oceny,ArrayList adres,ArrayList data,ArrayList nr_tel,ArrayList e_mail,ArrayList rok,ArrayList kierunek){
+        for(int numer = 0; numer <imie.size(); numer++) {
+            System.out.println(imie.get(numer));
+            System.out.println(oceny.get(numer));
+            System.out.println(adres.get(numer));
+            System.out.println(data.get(numer));
+            System.out.println(nr_tel.get(numer));
+            System.out.println(e_mail.get(numer));
+            System.out.println(rok.get(numer));
+            System.out.println(kierunek.get(numer));
+            System.out.println(" ");
+        }
+    }
 
 
     public static void main(String[] args) throws IOException {
@@ -1090,6 +1104,8 @@ class Solution{
                 "3. Wyswietlanie pojedyńczego elementu\n" +
                 "4. Wyswietlanie wszystkich informacji na temat jednej osoby\n" +
                 "5. Wyjdz z programu\n" +
+                "6. Dodaj osobe\n"+
+                "7. Wyświetlanie całej listy\n" +
                 "Twoj wybor to: \n");
 
         int Liczba = Integer.parseInt(reader.readLine());
@@ -1125,6 +1141,37 @@ class Solution{
             case 5: {
                 System.out.println("Wychodzisz z programu.");
                 break;
+            }
+            case 6: {
+                System.out.println("Podaj imie i nazwisko");
+                String Liczba_1 = reader.readLine();
+                imie.add(Liczba_1);
+                System.out.println("Podaj oceny");
+                String Liczba_2 = reader.readLine();
+                oceny.add(Liczba_2);
+                System.out.println("Podaj adres");
+                String Liczba_3 = reader.readLine();
+                oceny.add(Liczba_3);
+                System.out.println("Podaj date urodzenia");
+                String Liczba_4 = reader.readLine();
+                oceny.add(Liczba_4);
+                System.out.println("Podaj numer telefonu");
+                String Liczba_5 = reader.readLine();
+                oceny.add(Liczba_5);
+                System.out.println("Podaj e_mail");
+                String Liczba_6 = reader.readLine();
+                oceny.add(Liczba_6);
+                System.out.println("Podaj rok studiów");
+                String Liczba_7 = reader.readLine();
+                oceny.add(Liczba_7);
+                System.out.println("Podaj kierunek");
+                String Liczba_8 = reader.readLine();
+                oceny.add(Liczba_8);
+                Wyswietlanie_wszystkiego_Cala_Lista(imie,oceny,adres,data,nr_tel,e_mail,rok,kierunek);
+                break;
+            }
+            case 7:{
+                Wyswietlanie_wszystkiego_Cala_Lista(imie,oceny,adres,data,nr_tel,e_mail,rok,kierunek);
             }
         }
 
