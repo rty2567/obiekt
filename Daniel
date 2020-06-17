@@ -1139,22 +1139,22 @@ class Solution{
                 oceny.add(Liczba_2);
                 System.out.println("Podaj adres");
                 String Liczba_3 = reader.readLine();
-                oceny.add(Liczba_3);
+                adres.add(Liczba_3);
                 System.out.println("Podaj date urodzenia");
                 String Liczba_4 = reader.readLine();
-                oceny.add(Liczba_4);
+                data.add(Liczba_4);
                 System.out.println("Podaj numer telefonu");
                 String Liczba_5 = reader.readLine();
-                oceny.add(Liczba_5);
+                nr_tel.add(Liczba_5);
                 System.out.println("Podaj e_mail");
                 String Liczba_6 = reader.readLine();
-                oceny.add(Liczba_6);
+                e_mail.add(Liczba_6);
                 System.out.println("Podaj rok studiów");
                 String Liczba_7 = reader.readLine();
-                oceny.add(Liczba_7);
+                rok.add(Liczba_7);
                 System.out.println("Podaj kierunek");
                 String Liczba_8 = reader.readLine();
-                oceny.add(Liczba_8);
+                kierunek.add(Liczba_8);
                 Wyswietlanie_wszystkiego_Cala_Lista(imie,oceny,adres,data,nr_tel,e_mail,rok,kierunek);
                 break;
             }
