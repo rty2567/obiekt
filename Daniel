@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution{
+class program{
 
     public static void Wysw_pierwsze_el (ArrayList lista,int liczba){
         Collections.sort(lista);
@@ -1083,8 +1083,8 @@ class Solution{
         e_mail.add("maciej.adoski@email.pl");
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
-		
-	imie.add("Adam Lubelski");
+
+        imie.add("Adam Lubelski");
         oceny.add("4,3,3,5");
         adres.add("Poznań ul.Tywoska 29");
         data.add("17.05.1998");
@@ -1093,7 +1093,7 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	imie.add("Julita Gelk");
+        imie.add("Julita Gelk");
         oceny.add("3,3,4,4");
         adres.add("Poznań ul.Puska 88");
         data.add("28.04.1998");
@@ -1102,7 +1102,7 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	imie.add("Filip Hoska");
+        imie.add("Filip Hoska");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Dąbrowa 46");
         data.add("10.10.1998");
@@ -1111,7 +1111,7 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	imie.add("Weronika Olkwia");
+        imie.add("Weronika Olkwia");
         oceny.add("5,5,5,3");
         adres.add("Poznań ul.Goda 28");
         data.add("13.09.1998");
@@ -1120,7 +1120,7 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	imie.add("Oliwia Silska");
+        imie.add("Oliwia Silska");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Lisowa 77");
         data.add("23.04.1998");
@@ -1129,7 +1129,7 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	imie.add("Mariusz Wojoch");
+        imie.add("Mariusz Wojoch");
         oceny.add("4,3,3,3");
         adres.add("Poznań ul.Kępowska 34");
         data.add("06.03.1998");
@@ -1138,7 +1138,7 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	imie.add("Emilia Pomska");
+        imie.add("Emilia Pomska");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Dokowa 33");
         data.add("01.01.1998");
@@ -1147,7 +1147,7 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	imie.add("Damian Torch");
+        imie.add("Damian Torch");
         oceny.add("4,3,4,3");
         adres.add("Poznań ul.Wolińska 90");
         data.add("30.07.1998");
@@ -1155,8 +1155,8 @@ class Solution{
         e_mail.add("damian.torch@email.pl");
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
-		
-	imie.add("Magdalena Eliska");
+
+        imie.add("Magdalena Eliska");
         oceny.add("4,5,3,3");
         adres.add("Poznań ul.Wygdy 56");
         data.add("04.06.1998");
@@ -1165,9 +1165,9 @@ class Solution{
         rok.add("rok 2");
         kierunek.add("Zarządzanie");
 
-	// Rok 3 - Informatyka
+        // Rok 3 - Informatyka
 
-	imie.add("Kamil Roliski");
+        imie.add("Kamil Roliski");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Kępy 79");
         data.add("02.02.1997");
@@ -1176,7 +1176,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Ignacy Dork");
+        imie.add("Ignacy Dork");
         oceny.add("3,3,4,4");
         adres.add("Poznań ul.Ewina 54");
         data.add("09.06.1997");
@@ -1185,7 +1185,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Ula Cholka");
+        imie.add("Ula Cholka");
         oceny.add("5,5,3,3");
         adres.add("Poznań ul.Bosińska 85");
         data.add("27.05.1997");
@@ -1194,7 +1194,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Karina Lwoska");
+        imie.add("Karina Lwoska");
         oceny.add("4,5,3,3");
         adres.add("Poznań ul.Czapli 20");
         data.add("25.10.1997");
@@ -1203,7 +1203,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Adrian Glekowski");
+        imie.add("Adrian Glekowski");
         oceny.add("5,5,5,3");
         adres.add("Poznań ul.Komarowa 55");
         data.add("30.04.1997");
@@ -1212,7 +1212,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Maja Choliska");
+        imie.add("Maja Choliska");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Oliska 23");
         data.add("18.09.1997");
@@ -1221,7 +1221,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Wiktor Poskowski");
+        imie.add("Wiktor Poskowski");
         oceny.add("5,5,4,3");
         adres.add("Poznań ul.Gowicza 34");
         data.add("04.12.1997");
@@ -1230,7 +1230,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Kamila Susowska");
+        imie.add("Kamila Susowska");
         oceny.add("5,4,3,3");
         adres.add("Poznań ul.Leśna 61");
         data.add("07.09.1997");
@@ -1239,7 +1239,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Konrad Julski");
+        imie.add("Konrad Julski");
         oceny.add("4,4,3,3");
         adres.add("Poznań ul.Torowa 95");
         data.add("15.02.1997");
@@ -1248,7 +1248,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Igor Krolski");
+        imie.add("Igor Krolski");
         oceny.add("4,5,3,3");
         adres.add("Poznań ul.Stopowa 45");
         data.add("30.05.1997");
@@ -1257,7 +1257,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Anna Ekowska");
+        imie.add("Anna Ekowska");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Przystaniowa 2");
         data.add("05.08.1997");
@@ -1266,7 +1266,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Marta Forgowa");
+        imie.add("Marta Forgowa");
         oceny.add("5,4,3,3");
         adres.add("Poznań ul.Uliskowska 60");
         data.add("22.04.1997");
@@ -1275,7 +1275,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Kamil Emolski");
+        imie.add("Kamil Emolski");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Kępina 33");
         data.add("30.12.1997");
@@ -1284,7 +1284,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Marcin Lorelski");
+        imie.add("Marcin Lorelski");
         oceny.add("4,3,3,3");
         adres.add("Poznań ul.Arktyczna 40");
         data.add("08.03.1997");
@@ -1293,7 +1293,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Dominik Mak");
+        imie.add("Dominik Mak");
         oceny.add("3,3,3,5");
         adres.add("Poznań ul.Morska 64");
         data.add("03.01.1997");
@@ -1302,7 +1302,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Halina Dkowska");
+        imie.add("Halina Dkowska");
         oceny.add("4,4,3,3");
         adres.add("Poznań ul.Belińska 88");
         data.add("30.05.1997");
@@ -1311,7 +1311,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Marzena Losowa");
+        imie.add("Marzena Losowa");
         oceny.add("5,5,5,3");
         adres.add("Poznań ul.Goździkowa 32");
         data.add("29.08.1997");
@@ -1320,7 +1320,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Sylwia Grutka");
+        imie.add("Sylwia Grutka");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Kołobrzegowa 72");
         data.add("21.05.1997");
@@ -1329,7 +1329,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Andrzej Rokski");
+        imie.add("Andrzej Rokski");
         oceny.add("5,3,3,4");
         adres.add("Poznań ul.Maciejów 1");
         data.add("13.02.1997");
@@ -1338,7 +1338,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	imie.add("Alicja Juska");
+        imie.add("Alicja Juska");
         oceny.add("4,3,3,3");
         adres.add("Poznań ul.Torowicza 50");
         data.add("07.07.1997");
@@ -1347,9 +1347,9 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Informatyka");
 
-	// Rok 3 - Ekonomia
+        // Rok 3 - Ekonomia
 
-	imie.add("Henryk Gok");
+        imie.add("Henryk Gok");
         oceny.add("4,3,3,3");
         adres.add("Poznań ul.Krukowa 29");
         data.add("14.03.1997");
@@ -1358,7 +1358,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Jadwiga Purska");
+        imie.add("Jadwiga Purska");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Saska 45");
         data.add("30.02.1997");
@@ -1367,7 +1367,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Dawid Nolskowski");
+        imie.add("Dawid Nolskowski");
         oceny.add("4,5,5,5");
         adres.add("Poznań ul.Paryska 38");
         data.add("19.07.1997");
@@ -1376,7 +1376,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Magdalena Kosolska");
+        imie.add("Magdalena Kosolska");
         oceny.add("5,5,3,3");
         adres.add("Gdańsk ul.Rozewicza 57");
         data.add("18.04.1997");
@@ -1385,7 +1385,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Wiktoria Mochilska");
+        imie.add("Wiktoria Mochilska");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Ludowa 94");
         data.add("31.05.1997");
@@ -1394,7 +1394,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Karol Madwig");
+        imie.add("Karol Madwig");
         oceny.add("5,4,4,4");
         adres.add("Poznań ul.Wolska 30");
         data.add("04.07.1997");
@@ -1403,7 +1403,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Renata Holko");
+        imie.add("Renata Holko");
         oceny.add("5,5,3,3");
         adres.add("Poznań ul.Morska 40");
         data.add("16.06.1997");
@@ -1412,7 +1412,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Wojciech Ochski");
+        imie.add("Wojciech Ochski");
         oceny.add("5,3,3,3");
         adres.add("Poznań ul.Dworowa 77");
         data.add("20.04.1997");
@@ -1421,7 +1421,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Kacper Sachalski");
+        imie.add("Kacper Sachalski");
         oceny.add("5,4,5,5");
         adres.add("Poznań ul.Krasnowa 87");
         data.add("25.08.1997");
@@ -1430,7 +1430,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Anna Gukska");
+        imie.add("Anna Gukska");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Morsa 20");
         data.add("21.05.1997");
@@ -1439,7 +1439,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Wiktor Olwik");
+        imie.add("Wiktor Olwik");
         oceny.add("3,2,4,4");
         adres.add("Poznań ul.Kacprowicza 34");
         data.add("05.02.1997");
@@ -1448,7 +1448,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Sylwia Wrotewicz");
+        imie.add("Sylwia Wrotewicz");
         oceny.add("3,4,4,4");
         adres.add("Poznań ul.Harcewicza 21");
         data.add("18.05.1997");
@@ -1457,7 +1457,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Oliwia Doskowska");
+        imie.add("Oliwia Doskowska");
         oceny.add("4,4,5,5");
         adres.add("Poznań ul.Ulrańska 39");
         data.add("05.08.1997");
@@ -1466,7 +1466,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Emil Ikowski");
+        imie.add("Emil Ikowski");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Fryderyka 71");
         data.add("30.11.1997");
@@ -1475,7 +1475,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Damian Ailski");
+        imie.add("Damian Ailski");
         oceny.add("5,4,3,3");
         adres.add("Poznań ul.Dębowa 63");
         data.add("23.05.1997");
@@ -1484,7 +1484,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Mirek Kafrok");
+        imie.add("Mirek Kafrok");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Gęsiego 4");
         data.add("07.03.1997");
@@ -1493,7 +1493,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Joanna Cuscha");
+        imie.add("Joanna Cuscha");
         oceny.add("5,4,3,3");
         adres.add("Poznań ul.Fokowa 55");
         data.add("24.06.1997");
@@ -1502,7 +1502,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Dominik Kwarlski");
+        imie.add("Dominik Kwarlski");
         oceny.add("3,4,4,4");
         adres.add("Poznań ul.Tokowska 39");
         data.add("30.04.1997");
@@ -1511,7 +1511,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Joanna Koralowa");
+        imie.add("Joanna Koralowa");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Niedźwiedzia 40");
         data.add("05.02.1997");
@@ -1520,7 +1520,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	imie.add("Anna Lowiska");
+        imie.add("Anna Lowiska");
         oceny.add("4,5,3,3");
         adres.add("Poznań ul.Kadrowska 29");
         data.add("09.04.1997");
@@ -1529,9 +1529,9 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Ekonomia");
 
-	// Rok 3 - Zarządzanie
+        // Rok 3 - Zarządzanie
 
-	imie.add("Adam Rodski");
+        imie.add("Adam Rodski");
         oceny.add("4,5,5,3");
         adres.add("Poznań ul.Makowa 49");
         data.add("03.02.1997");
@@ -1540,8 +1540,8 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Maciej Falski");
-	oceny.add("4,4,4,4");
+        imie.add("Maciej Falski");
+        oceny.add("4,4,4,4");
         adres.add("Poznań ul.Ludowa 78");
         data.add("24.05.1997");
         nr_tel.add("239 455 929");
@@ -1549,7 +1549,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Igor Nokalski");
+        imie.add("Igor Nokalski");
         oceny.add("5,5,3,3");
         adres.add("Poznań ul.Kusowicza 40");
         data.add("17.07.1997");
@@ -1558,7 +1558,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Monika Wachska");
+        imie.add("Monika Wachska");
         oceny.add("4,5,5,3");
         adres.add("Poznań ul.Elfowa 35");
         data.add("04.06.1997");
@@ -1567,7 +1567,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Irena Sokolska");
+        imie.add("Irena Sokolska");
         oceny.add("4,5,5,5");
         adres.add("Poznań ul. Tarzyńska 96");
         data.add("08.11.1997");
@@ -1576,7 +1576,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Tomasz Dwik");
+        imie.add("Tomasz Dwik");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Gochlińska 84");
         data.add("02.05.1997");
@@ -1585,7 +1585,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Robert Gachlik");
+        imie.add("Robert Gachlik");
         oceny.add("5,4,3,3");
         adres.add("Poznań ul.Pawłowicza 23");
         data.add("28.09.1997");
@@ -1594,7 +1594,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Magdalena Sochlin");
+        imie.add("Magdalena Sochlin");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Zotkowska 57");
         data.add("16.05.1997");
@@ -1603,7 +1603,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Igor Tachowski");
+        imie.add("Igor Tachowski");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Domańska 33");
         data.add("19.10.1997");
@@ -1612,7 +1612,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Gracjan Tachowski");
+        imie.add("Gracjan Tachowski");
         oceny.add("4,5,5,5");
         adres.add("Poznań ul.Hycla 66");
         data.add("12.12.1997");
@@ -1621,7 +1621,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Jadwiga Gryk");
+        imie.add("Jadwiga Gryk");
         oceny.add("5,3,2,3");
         adres.add("Poznań ul.Maciechowska 22");
         data.add("04.05.1997");
@@ -1630,7 +1630,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Piotr Juschin");
+        imie.add("Piotr Juschin");
         oceny.add("4,3,3,3");
         adres.add("Poznań ul.Daszyńskiego 58");
         data.add("04.06.1997");
@@ -1639,7 +1639,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Dorota Jawik");
+        imie.add("Dorota Jawik");
         oceny.add("4,5,5,5");
         adres.add("Poznań ul.Grochowska 34");
         data.add("08.03.1997");
@@ -1648,7 +1648,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Fryderyk Malwikowski");
+        imie.add("Fryderyk Malwikowski");
         oceny.add("5,3,3,3");
         adres.add("Poznań ul.Gwilska 57");
         data.add("15.05.1997");
@@ -1657,7 +1657,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Grzegorz Salkowski");
+        imie.add("Grzegorz Salkowski");
         oceny.add("5,5,5,5");
         adres.add("Poznań ul.Rukowska 48");
         data.add("10.11.1997");
@@ -1666,7 +1666,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Justyna Zytkiewicz");
+        imie.add("Justyna Zytkiewicz");
         oceny.add("4,4,4,4");
         adres.add("Poznań ul.Warchowicza 21");
         data.add("30.11.1997");
@@ -1675,7 +1675,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Klaudia Murska");
+        imie.add("Klaudia Murska");
         oceny.add("5,3,3,3");
         adres.add("Poznań ul.Salowska 64");
         data.add("16.04.1997");
@@ -1684,7 +1684,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Wojciech Marowski");
+        imie.add("Wojciech Marowski");
         oceny.add("4,4,4,5");
         adres.add("Poznań ul.Wolicza 20");
         data.add("11.05.1997");
@@ -1693,7 +1693,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Weronika Kliaska");
+        imie.add("Weronika Kliaska");
         oceny.add("5,4,3,3");
         adres.add("Poznań ul.Dawilska 92");
         data.add("16.02.1997");
@@ -1702,7 +1702,7 @@ class Solution{
         rok.add("rok 3");
         kierunek.add("Zarządzanie");
 
-	imie.add("Radek Jelchin");
+        imie.add("Radek Jelchin");
         oceny.add("5,4,4,3");
         adres.add("Poznań ul.Maczkowa 47");
         data.add("10.05.1997");
