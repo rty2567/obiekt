@@ -1541,7 +1541,7 @@ class Solution{
         kierunek.add("Zarządzanie");
 
 	imie.add("Maciej Falski");
-		oceny.add("4,4,4,4");
+	oceny.add("4,4,4,4");
         adres.add("Poznań ul.Ludowa 78");
         data.add("24.05.1997");
         nr_tel.add("239 455 929");
